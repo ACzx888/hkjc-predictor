@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>HKJC Predictor · 首頁 Home</title>
+<style>
+:root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8;
+        --accent:#3d8bfd; --accent2:#2dd4bf; --border:#2a3648; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: "Segoe UI", "Noto Sans TC", system-ui, sans-serif;
+       background: var(--bg); color: var(--text); line-height: 1.5; }
+a { color: var(--accent2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+header { background: var(--card); border-bottom: 1px solid var(--border);
+         padding: 1rem 1.5rem; }
+nav { display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center; }
+nav a.tab { padding:0.4rem 0.9rem; border-radius:999px; border:1px solid var(--border);
+            color: var(--muted); }
+nav a.tab.active, nav a.tab:hover { background: var(--accent); color:#fff; border-color: var(--accent); }
+main { max-width: 960px; margin: 0 auto; padding: 1.5rem; }
+h1 { font-size: 1.5rem; margin: 0 0 0.25rem; }
+h2 { font-size: 1.15rem; margin-top: 1.75rem; color: var(--accent2); }
+.meta, .source, .disclaimer { color: var(--muted); font-size: 0.92rem; }
+.source { margin: 0.75rem 0; padding: 0.6rem 0.8rem; background: var(--card);
+          border-left: 3px solid var(--accent); border-radius: 4px; }
+.disclaimer { margin-top: 2rem; padding: 1rem; border: 1px solid var(--border);
+              border-radius: 8px; background: var(--card); }
+footer { max-width:960px; margin:0 auto; padding:1rem 1.5rem 2rem; color:var(--muted);
+         font-size:0.85rem; }
+.card-link { display:block; padding:1rem; margin:0.75rem 0; background:var(--card);
+             border:1px solid var(--border); border-radius:8px; color:var(--text); }
+.card-link:hover { border-color: var(--accent); }
+.btn-refresh {
+  appearance: none; cursor: pointer;
+  padding: 0.45rem 1rem; border-radius: 999px;
+  border: 1px solid var(--accent); background: transparent;
+  color: var(--text); font: inherit; font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+.btn-refresh:hover:not(:disabled) { background: var(--accent); color: #fff; }
+.btn-refresh:disabled { opacity: 0.55; cursor: wait; }
+.btn-refresh .spin {
+  display: inline-block; width: 0.85em; height: 0.85em;
+  border: 2px solid currentColor; border-right-color: transparent;
+  border-radius: 50%; margin-right: 0.4em; vertical-align: -0.1em;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.status-bar {
+  margin: 0.75rem 0; padding: 0.6rem 0.8rem; background: var(--card);
+  border-left: 3px solid var(--accent2); border-radius: 4px;
+  color: var(--muted); font-size: 0.92rem;
+}
+.status-bar strong { color: var(--text); }
+#refresh-status { margin-left: 0.5rem; color: var(--accent2); }
+ul.meetings { margin: 0.5rem 0; padding-left: 1.25rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>HKJC Predictor · 基本面提示單</h1>
+  <p class="meta">Fundamentals only · 不含賠率 No odds</p>
+  <nav>
+    <a class="tab active" href="/">首頁 Home</a>
+    <a class="tab" href="/local">本地 Local</a>
+    <a class="tab" href="/overseas">海外 Overseas</a>
+  </nav>
+  <button type="button" class="btn-refresh" data-refresh>🔄 Refresh live · 即時更新</button>
+  <span id="refresh-status"></span>
+</header>
+<main>
+  <h1>首頁 Home</h1>
+  <p class="meta">Choose a tip sheet page. Local and overseas use separate data paths.
+  Click <strong>Refresh live</strong> to fetch the real HKJC GraphQL schedule (fundamentals only).</p>
+
+  <div class="status-bar">
+    <strong>狀態 Status</strong><br/>
+    {% if state.refreshed_at %}
+      Last refresh · 上次更新: <strong>{{ state.refreshed_at }}</strong>
+      {% if state.ok is sameas false %}
+        · <span style="color:#f87171">failed</span>
+        {% if state.error %} — {{ state.error }}{% endif %}
+      {% elif state.ok %}
+        · <span style="color:var(--accent2)">ok</span>
+      {% endif %}
+    {% else %}
+      No live refresh yet · 尚未即時更新 — click Refresh live.
+    {% endif %}
+    {% if state.meeting %}
+      <br/>Meeting · 賽事: <strong>{{ state.meeting }}</strong>
+      · Races · 場次: <strong>{{ state.races }}</strong>
+    {% endif %}
+    {% if state.local_declared is sameas false %}
+      <br/>Local card · 本地: not declared in active GraphQL
+    {% elif state.local_declared %}
+      <br/>Local card · 本地: declared
+    {% endif %}
+    {% if state.overseas_declared %}
+      <br/>Overseas · 海外: active
+    {% endif %}
+  </div>
+
+  {% if state.meetings %}
+  <h2>Meeting summary · 賽事摘要</h2>
+  <ul class="meetings">
+    {% for m in state.meetings %}
+    <li>
+      <strong>{{ m.kind }}</strong> —
+      {{ m.date }} {{ m.venue_name or m.venue }} ({{ m.venue }})
+      · {{ m.races }} races / {{ m.runners }} runners
+      {% if m.source %} · {{ m.source }}{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  <a class="card-link" href="/local">
+    <strong>本地 Local</strong><br/>
+    Hong Kong race meetings (Happy Valley / Sha Tin)
+  </a>
+  <a class="card-link" href="/overseas">
+    <strong>海外 Overseas</strong><br/>
+    Simulcast / overseas meetings (separate sources &amp; weights)
+  </a>
+
+  <div class="disclaimer">
+    <p>{{ disclaimer_zh }}</p>
+    <p>{{ disclaimer_en }}</p>
+  </div>
+</main>
+<footer>
+  <p>{{ disclaimer_zh }}</p>
+  <p>{{ disclaimer_en }}</p>
+</footer>
+<script>
+(function () {
+  function setBusy(busy, msg) {
+    document.querySelectorAll("[data-refresh]").forEach(function (btn) {
+      btn.disabled = busy;
+      if (busy) {
+        btn.dataset.label = btn.dataset.label || btn.innerHTML;
+        btn.innerHTML = '<span class="spin"></span>' + (msg || 'Refreshing…');
+      } else if (btn.dataset.label) {
+        btn.innerHTML = btn.dataset.label;
+      }
+    });
+    var st = document.getElementById("refresh-status");
+    if (st) st.textContent = msg || "";
+  }
+  async function doRefresh() {
+    setBusy(true, "Refreshing live…");
+    try {
+      var res = await fetch("/api/refresh", { method: "POST" });
+      var data = await res.json();
+      if (data.triggered) {
+        setBusy(true, "Rebuild triggered — new tip sheets deploy shortly. Reloading in ~45s…");
+        setTimeout(function () { location.reload(); }, 45000);
+        return;
+      }
+      if (!data.ok) {
+        setBusy(false, "Error: " + (data.error || "refresh failed"));
+        return;
+      }
+      setBusy(true, "Updated " + (data.refreshed_at || "") + " — reloading…");
+      setTimeout(function () { location.reload(); }, 400);
+    } catch (e) {
+      setBusy(false, "Error: " + e);
+    }
+  }
+  document.querySelectorAll("[data-refresh]").forEach(function (btn) {
+    btn.addEventListener("click", function (ev) {
+      ev.preventDefault();
+      if (btn.disabled) return;
+      doRefresh();
+    });
+  });
+})();
+</script>
+</body>
+</html>

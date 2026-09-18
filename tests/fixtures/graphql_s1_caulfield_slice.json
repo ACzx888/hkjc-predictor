@@ -1,0 +1,677 @@
+{
+  "data": {
+    "timeOffset": {
+      "rc": 0
+    },
+    "activeMeetings": [
+      {
+        "id": "20260919S1",
+        "venueCode": "S1",
+        "date": "2026-09-19",
+        "status": "DEFINED",
+        "races": [
+          {
+            "no": 1,
+            "postTime": "2026-09-19T10:10:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 16
+          },
+          {
+            "no": 2,
+            "postTime": "2026-09-19T10:40:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 9
+          },
+          {
+            "no": 3,
+            "postTime": "2026-09-19T11:15:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 11
+          },
+          {
+            "no": 4,
+            "postTime": "2026-09-19T11:50:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 14
+          },
+          {
+            "no": 5,
+            "postTime": "2026-09-19T12:25:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 9
+          },
+          {
+            "no": 6,
+            "postTime": "2026-09-19T13:00:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 12
+          },
+          {
+            "no": 7,
+            "postTime": "2026-09-19T13:35:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 9
+          },
+          {
+            "no": 8,
+            "postTime": "2026-09-19T14:15:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 20
+          },
+          {
+            "no": 9,
+            "postTime": "2026-09-19T14:50:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 18
+          },
+          {
+            "no": 10,
+            "postTime": "2026-09-19T15:25:00+08:00",
+            "status": "DECLARED",
+            "wageringFieldSize": 19
+          }
+        ]
+      }
+    ],
+    "raceMeetings": [
+      {
+        "id": "20260919S1",
+        "status": "DEFINED",
+        "venueCode": "S1",
+        "date": "2026-09-19",
+        "totalNumberOfRace": 10,
+        "currentNumberOfRace": 0,
+        "dateOfWeek": "SAT",
+        "meetingType": "O",
+        "country": [
+          {
+            "code": "AUS",
+            "namech": "澳洲",
+            "nameen": "AUSTRALIA",
+            "seq": "1"
+          }
+        ],
+        "races": [
+          {
+            "id": "20260919S105",
+            "no": 1,
+            "status": "DECLARED",
+            "raceName_en": "BM74 Handicap",
+            "raceName_ch": "指標評分74讓賽",
+            "postTime": "2026-09-19T10:10:00+08:00",
+            "country_en": "Australia",
+            "country_ch": "澳洲",
+            "distance": 1800,
+            "wageringFieldSize": 16,
+            "go_en": "GOOD TO YIELDING",
+            "go_ch": "好地至黏地",
+            "ratingType": null,
+            "raceTrack": {
+              "description_en": "Turf",
+              "description_ch": "草地"
+            },
+            "raceCourse": {
+              "description_en": "Caulfield Racecourse",
+              "description_ch": "考菲爾德馬場",
+              "displayCode": ""
+            },
+            "claCode": null,
+            "raceClass_en": "",
+            "raceClass_ch": "",
+            "judgeSigns": [],
+            "runners": [
+              {
+                "id": "20260919S10501",
+                "no": "1",
+                "standbyNo": "",
+                "status": "Declared",
+                "name_ch": "艾歷公爵",
+                "name_en": "Prince Eric (IRE)",
+                "horse": {
+                  "id": "20260919S10501H",
+                  "code": "20260919S10501H"
+                },
+                "color": "20260919_S1_r5_h01",
+                "barrierDrawNumber": "12",
+                "handicapWeight": "141",
+                "currentWeight": "",
+                "currentRating": "",
+                "internationalRating": "82",
+                "gearInfo": "CP-/V2/XB",
+                "racingColorFileName": "20260919_S1_r5_h01",
+                "allowance": "",
+                "trainerPreference": "",
+                "last6run": "9/1/3/4/8",
+                "saddleClothNo": "01",
+                "trumpCard": false,
+                "priority": false,
+                "finalPosition": 0,
+                "deadHeat": false,
+                "jockey": {
+                  "code": "20260919S10501J",
+                  "name_en": "Holly Durnan (a)(-6)",
+                  "name_ch": "段靄凌 (a)(-6)"
+                },
+                "trainer": {
+                  "code": "20260919S10501T",
+                  "name_en": "Archie Alexander",
+                  "name_ch": "艾力誠"
+                }
+              },
+              {
+                "id": "20260919S10502",
+                "no": "2",
+                "standbyNo": "",
+                "status": "Declared",
+                "name_ch": "禮貌事成",
+                "name_en": "Politely Dun (AUS)",
+                "horse": {
+                  "id": "20260919S10502H",
+                  "code": "20260919S10502H"
+                },
+                "color": "20260919_S1_r5_h02",
+                "barrierDrawNumber": "9",
+                "handicapWeight": "135",
+                "currentWeight": "",
+                "currentRating": "",
+                "internationalRating": "76",
+                "gearInfo": "B",
+                "racingColorFileName": "20260919_S1_r5_h02",
+                "allowance": "",
+                "trainerPreference": "",
+                "last6run": "1/4/9/4/5",
+                "saddleClothNo": "02",
+                "trumpCard": false,
+                "priority": false,
+                "finalPosition": 0,
+                "deadHeat": false,
+                "jockey": {
+                  "code": "20260919S10502J",
+                  "name_en": "Damien Thornton",
+                  "name_ch": "方達明"
+                },
+                "trainer": {
+                  "code": "20260919S10502T",
+                  "name_en": "Danny O'Brien",
+                  "name_ch": "歐伯賢"
+                }
+              },
+              {
+                "id": "20260919S10503",
+                "no": "3",
+                "standbyNo": "",
+                "status": "Declared",
+                "name_ch": "慈皇",
+                "name_en": "Emperor Tzu (AUS)",
+                "horse": {
+                  "id": "20260919S10503H",
+                  "code": "20260919S10503H"
+                },
+                "color": "20260919_S1_r5_h03",
+                "barrierDrawNumber": "7",
+                "handicapWeight": "133",
+                "currentWeight": "",
+                "currentRating": "",
+                "internationalRating": "75",
+                "gearInfo": "",
+                "racingColorFileName": "20260919_S1_r5_h03",
+                "allowance": "",
+                "trainerPreference": "",
+                "last6run": "1/1/2/2/4",
+                "saddleClothNo": "03",
+                "trumpCard": false,
+                "priority": false,
+                "finalPosition": 0,
+                "deadHeat": false,
+                "jockey": {
+                  "code": "20260919S10503J",
+                  "name_en": "Jabez Johnstone(a)(-4)",
+                  "name_ch": "莊慎堂 (a)(-4)"
+                },
+                "trainer": {
+                  "code": "20260919S10503T",
+                  "name_en": "Ciaron Maher",
+                  "name_ch": "馬漢雅"
+                }
+              },
+              {
+                "id": "20260919S10504",
+                "no": "4",
+                "standbyNo": "",
+                "status": "Declared",
+                "name_ch": "摯情守望",
+                "name_en": "My Brothers Keeper (AUS)",
+                "horse": {
+                  "id": "20260919S10504H",
+                  "code": "20260919S10504H"
+                },
+                "color": "20260919_S1_r5_h04",
+                "barrierDrawNumber": "8",
+                "handicapWeight": "133",
+                "currentWeight": "",
+                "currentRating": "",
+                "internationalRating": "75",
+                "gearInfo": "CP",
+                "racingColorFileName": "20260919_S1_r5_h04",
+                "allowance": "",
+                "trainerPreference": "",
+                "last6run": "8/3/10/4/5",
+                "saddleClothNo": "04",
+                "trumpCard": false,
+                "priority": false,
+                "finalPosition": 0,
+                "deadHeat": false,
+                "jockey": {
+                  "code": "20260919S10504J",
+                  "name_en": "Patrick Moloney",
+                  "name_ch": "馬朗尼"
+                },
+                "trainer": {
+                  "code": "20260919S10504T",
+                  "name_en": "Stephen V Brown",
+                  "name_ch": "布恩"
+                }
+              }
+            ]
+          },
+          {
+            "id": "20260919S103",
+            "no": 2,
+            "status": "DECLARED",
+            "raceName_en": "HKJC World Pool Classics Preview",
+            "raceName_ch": "香港賽馬會全球匯合彩池經典錦標選拔賽",
+            "postTime": "2026-09-19T10:40:00+08:00",
+            "country_en": "Australia",
+            "country_ch": "澳洲",
+            "distance": 1800,
+            "wageringFieldSize": 9,
+            "go_en": "GOOD TO YIELDING",
+            "go_ch": "好地至黏地",
+            "ratingType": null,
+            "raceTrack": {
+              "description_en": "Turf",
+              "description_ch": "草地"
+            },
+            "raceCourse": {
+              "description_en": "Caulfield Racecourse",
+              "description_ch": "考菲爾德馬場",
+              "displayCode": ""
+            },
+            "claCode": null,
+            "raceClass_en": "",
+            "raceClass_ch": "",
+            "judgeSigns": [],
+            "runners": [
+              {
+                "id": "20260919S10301",
+                "no": "1",
+                "standbyNo": "",
+                "status": "Declared",
+                "name_ch": "雷暴電光",
+                "name_en": "Arashi Flash (AUS)",
+                "horse": {
+                  "id": "20260919S10301H",
+                  "code": "20260919S10301H"
+                },
+                "color": "20260919_S1_r3_h01",
+                "barrierDrawNumber": "4",
+                "handicapWeight": "130",
+                "currentWeight": "",
+                "currentRating": "",
+                "internationalRating": "62",
+                "gearInfo": "B",
+                "racingColorFileName": "20260919_S1_r3_h01",
+                "allowance": "",
+                "trainerPreference": "",
+                "last6run": "1/3/10",
+                "saddleClothNo": "01",
+                "trumpCard": false,
+                "priority": false,
+                "finalPosition": 0,
+                "deadHeat": false,
+                "jockey": {
+                  "code": "20260919S10301J",
+                  "name_en": "Lachlan Neindorf",
+                  "name_ch": "凌道暉"
+                },
+                "trainer": {
+                  "code": "20260919S10301T",
+                  "name_en": "T Busuttin & N Young",
+                  "name_ch": "布樹庭及楊麗妮"
+                }
+              },
+              {
+                "id": "20260919S10302",
+                "no": "2",
+                "standbyNo": "",
+                "status": "Declared",
+                "name_ch": "范高耳語",
+                "name_en": "Frank Whisper (AUS)",
+                "horse": {
+                  "id": "20260919S10302H",
+                  "code": "20260919S10302H"
+                },
+                "color": "20260919_S1_r3_h02",
+                "barrierDrawNumber": "2",
+                "handicapWeight": "130",
+                "currentWeight": "",
+                "currentRating": "",
+                "internationalRating": "62",
+                "gearInfo": "B",
+                "racingColorFileName": "20260919_S1_r3_h02",
+                "allowance": "",
+                "trainerPreference": "",
+                "last6run": "1/4/8",
+                "saddleClothNo": "02",
+                "trumpCard": false,
+                "priority": false,
+                "finalPosition": 0,
+                "deadHeat": false,
+                "jockey": {
+                  "code": "20260919S10302J",
+                  "name_en": "Daniel Stackhouse",
+                  "name_ch": "施德瀚"
+                },
+                "trainer": {
+                  "code": "20260919S10302T",
+                  "name_en": "Matt Laurie",
+                  "name_ch": "羅滿德"
+                }
+              },
+              {
+                "id": "20260919S10303",
+                "no": "3",
+                "standbyNo": "",
+                "status": "Declared",
+                "name_ch": "冽影",
+                "name_en": "Icy You (AUS)",
+                "horse": {
+                  "id": "20260919S10303H",
+                  "code": "20260919S10303H"
+                },
+                "color": "20260919_S1_r3_h03",
+                "barrierDrawNumber": "1",
+                "handicapWeight": "130",
+                "currentWeight": "",
+                "currentRating": "",
+                "internationalRating": "62",
+                "gearInfo": "B/TT",
+                "racingColorFileName": "20260919_S1_r3_h03",
+                "allowance": "",
+                "trainerPreference": "",
+                "last6run": "1/2",
+                "saddleClothNo": "03",
+                "trumpCard": false,
+                "priority": false,
+                "finalPosition": 0,
+                "deadHeat": false,
+                "jockey": {
+                  "code": "20260919S10303J",
+                  "name_en": "Craig Newitt",
+                  "name_ch": "廖偉德"
+                },
+                "trainer": {
+                  "code": "20260919S10303T",
+                  "name_en": "T Busuttin & N Young",
+                  "name_ch": "布樹庭及楊麗妮"
+                }
+              },
+              {
+                "id": "20260919S10304",
+                "no": "4",
+                "standbyNo": "",
+                "status": "Declared",
+                "name_ch": "理想前景",
+                "name_en": "Utopic Future (AUS)",
+                "horse": {
+                  "id": "20260919S10304H",
+                  "code": "20260919S10304H"
+                },
+                "color": "20260919_S1_r3_h04",
+                "barrierDrawNumber": "9",
+                "handicapWeight": "130",
+                "currentWeight": "",
+                "currentRating": "",
+                "internationalRating": "62",
+                "gearInfo": "XB",
+                "racingColorFileName": "20260919_S1_r3_h04",
+                "allowance": "",
+                "trainerPreference": "",
+                "last6run": "5/1",
+                "saddleClothNo": "04",
+                "trumpCard": false,
+                "priority": false,
+                "finalPosition": 0,
+                "deadHeat": false,
+                "jockey": {
+                  "code": "20260919S10304J",
+                  "name_en": "Thomas Stockdale",
+                  "name_ch": "施棟德"
+                },
+                "trainer": {
+                  "code": "20260919S10304T",
+                  "name_en": "Ciaron Maher",
+                  "name_ch": "馬漢雅"
+                }
+              }
+            ]
+          }
+        ],
+        "penetrometerReadings": [],
+        "hammerReadings": [],
+        "changeHistories": [
+          {
+            "type": "400",
+            "time": "2026-09-18T10:55:32.657+08:00",
+            "raceNo": 2,
+            "runnerNo": "8",
+            "horseName_ch": "冬日修煉",
+            "horseName_en": "Winter Arc (AUS)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "400",
+            "time": "2026-09-18T13:08:20.163+08:00",
+            "raceNo": 4,
+            "runnerNo": "1",
+            "horseName_ch": "格麗心意",
+            "horseName_en": "Grinzinger Heart (AUS)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "400",
+            "time": "2026-09-18T05:39:36.433+08:00",
+            "raceNo": 6,
+            "runnerNo": "7",
+            "horseName_ch": "獨角羚",
+            "horseName_en": "Shadhavar (AUS)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "400",
+            "time": "2026-09-17T18:56:53.707+08:00",
+            "raceNo": 7,
+            "runnerNo": "9",
+            "horseName_ch": "陽光小姐",
+            "horseName_en": "Aeliana (NZ)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "169",
+            "time": "2026-09-18T08:23:50.300+08:00",
+            "raceNo": 8,
+            "runnerNo": "19",
+            "horseName_ch": "御林深谷",
+            "horseName_en": "Kings Valley (IRE)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "400",
+            "time": "2026-09-18T08:23:26.600+08:00",
+            "raceNo": 8,
+            "runnerNo": "15",
+            "horseName_ch": "飛馱",
+            "horseName_en": "Piggyback (AUS)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "169",
+            "time": "2026-09-17T19:00:21.577+08:00",
+            "raceNo": 8,
+            "runnerNo": "18",
+            "horseName_ch": "野生天堂",
+            "horseName_en": "Zakouma (AUS)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "400",
+            "time": "2026-09-17T18:59:29.277+08:00",
+            "raceNo": 8,
+            "runnerNo": "13",
+            "horseName_ch": "猛銳王",
+            "horseName_en": "Valiant King (GB)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "400",
+            "time": "2026-09-17T18:57:48.523+08:00",
+            "raceNo": 8,
+            "runnerNo": "17",
+            "horseName_ch": "名影星",
+            "horseName_en": "Travolta (GB)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "R"
+          },
+          {
+            "type": "169",
+            "time": "2026-09-18T08:39:02.760+08:00",
+            "raceNo": 10,
+            "runnerNo": "18",
+            "horseName_ch": "必然有獎",
+            "horseName_en": "Inevitable Award (AUS)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "99",
+            "time": "2026-09-18T08:38:41.077+08:00",
+            "raceNo": 10,
+            "runnerNo": "18",
+            "horseName_ch": "必然有獎",
+            "horseName_en": "Inevitable Award (AUS)",
+            "jockeyName_ch": "容後公佈",
+            "jockeyName_en": "T BC                  ",
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": null
+          },
+          {
+            "type": "400",
+            "time": "2026-09-18T08:37:38.640+08:00",
+            "raceNo": 10,
+            "runnerNo": "13",
+            "horseName_ch": "本質",
+            "horseName_en": "Fundamental Nature (AUS)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "169",
+            "time": "2026-09-18T08:36:55.063+08:00",
+            "raceNo": 10,
+            "runnerNo": "17",
+            "horseName_ch": "艦級重量",
+            "horseName_en": "Cruiserweight (NZ)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "400",
+            "time": "2026-09-18T08:36:32.447+08:00",
+            "raceNo": 10,
+            "runnerNo": "11",
+            "horseName_ch": "深夜潛步",
+            "horseName_en": "Stealth Of Night (IRE)",
+            "jockeyName_ch": null,
+            "jockeyName_en": null,
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": "N"
+          },
+          {
+            "type": "99",
+            "time": "2026-09-17T19:21:50.643+08:00",
+            "raceNo": 10,
+            "runnerNo": "6",
+            "horseName_ch": "發佈會",
+            "horseName_en": "Presser (AUS)",
+            "jockeyName_ch": "容後公佈",
+            "jockeyName_en": "TBC                   ",
+            "scratchHorseName_ch": null,
+            "scratchHorseName_en": null,
+            "handicapWeight": null,
+            "scrResvIndicator": null
+          }
+        ]
+      }
+    ]
+  }
+}

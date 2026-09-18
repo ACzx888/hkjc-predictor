@@ -1,0 +1,139 @@
+# Scoring weights for fundamental condition analysis (must sum ~1.0)
+# All factors are 0–100 internally; final score is weighted average.
+
+weights:
+  recent_form: 0.28          # last 6 placings (1=win … higher=worse)
+  course_distance_fit: 0.18  # CD / C / D win-place record proxies
+  draw_bias: 0.12            # HV vs ST, turf vs AWT heuristics
+  jockey: 0.10               # jockey ability proxy (win% / rating band)
+  trainer: 0.08              # trainer ability proxy
+  rating: 0.14               # official rating + recent change
+  weight_claim: 0.07         # carried weight & apprentice claims
+  going_gear: 0.03           # going suitability & gear notes if present
+
+# Draw bias tables: score contribution before weight (0–100 scale)
+# Higher = more favourable draw for that track/surface.
+draw_bias:
+  HV:
+    turf:
+      # Happy Valley turf: inner draws often favoured on shorter turns
+      preferred_low: true
+      # draw -> base score
+      scores: {1: 95, 2: 90, 3: 85, 4: 78, 5: 70, 6: 62, 7: 52, 8: 42, 9: 35, 10: 28, 11: 22, 12: 18, 13: 14, 14: 10}
+    awt:
+      preferred_low: true
+      scores: {1: 88, 2: 84, 3: 80, 4: 74, 5: 68, 6: 60, 7: 52, 8: 44, 9: 38, 10: 32, 11: 26, 12: 20}
+  ST:
+    turf:
+      # Sha Tin turf: less extreme; mid-to-low often fine
+      preferred_low: false
+      scores: {1: 72, 2: 78, 3: 82, 4: 85, 5: 88, 6: 90, 7: 88, 8: 84, 9: 78, 10: 72, 11: 65, 12: 58, 13: 50, 14: 42}
+    awt:
+      preferred_low: true
+      scores: {1: 90, 2: 86, 3: 82, 4: 76, 5: 70, 6: 62, 7: 54, 8: 46, 9: 40, 10: 34, 11: 28, 12: 22}
+
+# Jockey / trainer proxy tiers (name substring or exact match → score)
+# Unknown names get default_score
+jockey_tiers:
+  default: 55
+  elite: 92      # ~top tier
+  strong: 78
+  solid: 65
+  apprentice: 48
+  elite_names:
+    - Zac Purton
+    - Joao Moreira
+    - Hugh Bowman
+    - James McDonald
+  strong_names:
+    - Karis Teetan
+    - Vincent Ho
+    - Derek Leung
+    - Matthew Chadwick
+    - Lyle Hewitson
+    - Alexis Badel
+  solid_names:
+    - Antoine Hamelin
+    - Luke Ferraris
+    - Brenton Avdulla
+    - Harry Bentley
+    - Keagan de Melo
+  apprentice_names:
+    - Ellis Wong
+    - Angus Chung
+    - E C W Wong
+    - M F Poon
+
+trainer_tiers:
+  default: 55
+  elite: 90
+  strong: 75
+  solid: 62
+  elite_names:
+    - John Size
+    - Caspar Fownes
+    - Frankie Lor
+    - John Moore
+  strong_names:
+    - David Hall
+    - Tony Cruz
+    - Pierre Ng
+    - Manfred Man
+    - C S Shum
+    - Danny Shum
+  solid_names:
+    - Ricky Yiu
+    - Me Tsui
+    - Benno Yung
+    - W Y So
+    - K W Lui
+
+# Form scoring: placing → points (averaged over last N starts)
+form:
+  max_starts: 6
+  placing_points:
+    1: 100
+    2: 85
+    3: 72
+    4: 58
+    5: 48
+    6: 40
+    7: 32
+    8: 25
+    9: 18
+    10: 12
+  default_placing: 8   # for missing / DNF-like
+  no_form_score: 40
+
+# Rating: map official rating bands to 0–100, then adjust by change
+rating:
+  min_rating: 20
+  max_rating: 130
+  change_bonus_per_point: 1.5   # +rating change boosts score
+  change_cap: 15
+
+# Weight: lighter is slightly better; claim reduces effective weight
+weight_claim:
+  baseline_kg: 57.0
+  kg_penalty: 3.0        # points lost per kg above baseline
+  claim_bonus: 2.0       # points gained per kg claimed
+  min_score: 25
+  max_score: 95
+
+# Going / gear (optional fields)
+going_gear:
+  default: 50
+  soft_suitable: 70
+  firm_suitable: 70
+  gear_positive: 60      # blinkers first-time etc. mild positive if flagged
+
+# Softmax confidence (tunable). Score stays 0–100 fundamentals; Conf % is
+# field-relative win probability via softmax(score / temperature).
+# Race confidence blends (top1−top2) gap and probability entropy → 0–100 + High/Med/Low.
+confidence:
+  temperature: 8.0       # lower = sharper favourite; higher = flatter field
+  gap_scale: 10.0        # score gap of this magnitude → strong gap contribution
+  gap_weight: 0.6
+  entropy_weight: 0.4
+  high_threshold: 70     # Race confidence ≥ this → High
+  med_threshold: 45      # ≥ this → Med; else Low

@@ -1,0 +1,24 @@
+# Optional: keep Cloudflare Pages fresh by curling the Deploy Hook on a schedule.
+# Add repository secret: CF_DEPLOY_HOOK_URL
+name: Refresh Cloudflare Pages
+
+on:
+  schedule:
+    # Every 6 hours (UTC). Adjust for race-day coverage as needed.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Deploy Hook
+        env:
+          CF_DEPLOY_HOOK_URL: ${{ secrets.CF_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$CF_DEPLOY_HOOK_URL" ]; then
+            echo "Secret CF_DEPLOY_HOOK_URL is not set — skip."
+            exit 1
+          fi
+          curl -fsS -X POST "$CF_DEPLOY_HOOK_URL"
+          echo "Deploy hook triggered."

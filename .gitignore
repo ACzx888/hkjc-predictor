@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+output/*
+!output/.gitkeep
+*.log
+.DS_Store
+
+# Generated / cache (do not commit secrets or huge caches)
+data/cache/
+data/live_*.json
+data/web_state.json
+.env
+.env.*
+!.env.example
+
+# Local wrangler / CF
+.wrangler/
+.dev.vars

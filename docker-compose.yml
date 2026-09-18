@@ -1,0 +1,11 @@
+services:
+  hkjc-web:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      # Persist tip sheets, GraphQL cache, and web_state.json
+      - ./output:/app/output
+      - ./data:/app/data
+      - ./config:/app/config:ro
+    restart: unless-stopped

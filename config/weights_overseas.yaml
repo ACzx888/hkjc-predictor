@@ -1,0 +1,109 @@
+# Overseas / simulcast scoring weights (fundamentals only — NO odds).
+# Separate from local config/weights.yaml.
+# Local HV/ST draw-bias tables do NOT apply; use draw_generic instead.
+
+weights:
+  recent_form: 0.30
+  course_distance_fit: 0.16
+  draw_generic: 0.10          # generic draw (not HV/ST tables)
+  jockey: 0.12
+  trainer: 0.10
+  rating: 0.12
+  weight_claim: 0.06
+  going_gear: 0.04
+
+# Generic draw heuristics for overseas tracks (no venue-specific HV/ST maps)
+draw_generic:
+  preferred_low: true
+  short_distance_m: 1400      # below this, favour lower draws more
+
+# Overseas jockey / trainer name tiers (Japan / international placeholders OK)
+jockey_tiers:
+  default: 55
+  elite: 92
+  strong: 78
+  solid: 65
+  apprentice: 48
+  elite_names:
+    - Yutaka Take
+    - Christophe Lemaire
+    - Joao Moreira
+    - Ryan Moore
+    - James McDonald
+    - Zac Purton
+  strong_names:
+    - Damian Lane
+    - Keita Tosaki
+    - William Buick
+    - Tom Marquand
+    - Karis Teetan
+  solid_names:
+    - Mirco Demuro
+    - Craig Williams
+    - Hugh Bowman
+  apprentice_names: []
+
+trainer_tiers:
+  default: 55
+  elite: 90
+  strong: 75
+  solid: 62
+  elite_names:
+    - Yasutoshi Ikee
+    - Yoshito Yahagi
+    - Aidan O'Brien
+    - John Size
+  strong_names:
+    - Noriyuki Hori
+    - Chris Waller
+    - Charlie Appleby
+    - Hideaki Fujiwara
+  solid_names:
+    - Mitsumasa Nakauchida
+    - Sakae Kunieda
+
+form:
+  max_starts: 6
+  placing_points:
+    1: 100
+    2: 85
+    3: 72
+    4: 58
+    5: 48
+    6: 40
+    7: 32
+    8: 25
+    9: 18
+    10: 12
+  default_placing: 8
+  no_form_score: 40
+
+rating:
+  min_rating: 40
+  max_rating: 120
+  change_bonus_per_point: 1.5
+  change_cap: 15
+
+weight_claim:
+  baseline_kg: 55.0
+  kg_penalty: 3.0
+  claim_bonus: 2.0
+  min_score: 25
+  max_score: 95
+
+going_gear:
+  default: 50
+  soft_suitable: 70
+  firm_suitable: 70
+  gear_positive: 60
+
+# Softmax confidence (tunable). Score stays 0–100 fundamentals; Conf % is
+# field-relative win probability via softmax(score / temperature).
+# Race confidence blends (top1−top2) gap and probability entropy → 0–100 + High/Med/Low.
+confidence:
+  temperature: 8.0       # lower = sharper favourite; higher = flatter field
+  gap_scale: 10.0        # score gap of this magnitude → strong gap contribution
+  gap_weight: 0.6
+  entropy_weight: 0.4
+  high_threshold: 70     # Race confidence ≥ this → High
+  med_threshold: 45      # ≥ this → Med; else Low
