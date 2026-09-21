@@ -65,7 +65,8 @@ def _status_bar_html(state: dict) -> str:
 
 def _inject_status_into_index(html: str, state: dict) -> str:
     bar = _status_bar_html(state)
-    if "status-bar" in html:
+    # Avoid matching the CSS rule ".status-bar { ... }"
+    if 'class="status-bar"' in html or "class='status-bar'" in html:
         return html
     # Insert after first <h1>…</h1> inside main, or after <main>
     m = re.search(r"(<main[^>]*>\s*<h1[^>]*>.*?</h1>)", html, flags=re.DOTALL)
