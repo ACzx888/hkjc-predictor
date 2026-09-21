@@ -146,6 +146,17 @@ The container listens on port **8080**. GraphQL live refresh needs outbound HTTP
 
 
 ## Deploy to Cloudflare Pages
+### Workers Build panel (Build / Deploy / Version — no output directory)
+
+If Cloudflare shows **Version command** and **no Build output directory**, you are on the Workers build UI:
+
+1. **Root directory:** leave **empty** (do not set `/` — that causes *Invalid request body*)
+2. **Build command:** `bash scripts/cf_pages_build.sh`
+3. **Deploy command:** `npx wrangler deploy`
+4. **Version command:** clear it
+5. Repo includes `wrangler.toml` with `[assets] directory = "./dist"`
+
+
 **Important:** Do **not** add a root `wrangler.toml`. It makes Pages run wrangler deploy and often fails with `error occurred while running deploy command`. See `docs/cloudflare-pages.md`. Functions still work from `functions/`.
 
 

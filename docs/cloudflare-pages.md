@@ -1,18 +1,33 @@
-# Cloudflare Pages
+# Cloudflare deploy (Workers UI or Pages)
 
-## Dashboard settings
-- Framework preset: **None**
-- Build command: `bash scripts/cf_pages_build.sh`
-- Build output directory: `dist`
-- Optional env: `PYTHON_VERSION=3.11`
-- Optional env (after first success): `DEPLOY_HOOK_URL` = Deploy Hook URL
+## If your settings look like the Workers Build panel
+(fields: Build command, Deploy command, Version command, Root directory — **no** Output directory)
 
-## Do not add wrangler.toml
-A root `wrangler.toml` makes Pages run **wrangler deploy**, which often fails in Git-connected builds with:
-`Failed: error occurred while running deploy command`
-and a wrangler log under `/opt/buildhome/.config/.wrangler/logs/`.
+| Field | Value |
+|-------|--------|
+| Build command | `bash scripts/cf_pages_build.sh` |
+| Deploy command | `npx wrangler deploy` |
+| Version command | **clear / empty** |
+| Root directory | **empty** (do not use `/`) |
 
-Pages Functions still work from the `functions/` directory without wrangler.toml.
+`wrangler.toml` must contain:
 
-## Refresh live
-Create a Deploy Hook in the Pages project, set `DEPLOY_HOOK_URL`, redeploy once.
+```toml
+[assets]
+directory = "./dist"
+```
+
+Save only after Root directory is empty — `/` often causes **Invalid request body**.
+
+## If you create a classic Pages project instead
+(Workers & Pages → Create → Pages → Connect to Git)
+
+| Field | Value |
+|-------|--------|
+| Framework | None |
+| Build command | `bash scripts/cf_pages_build.sh` |
+| Build output directory | `dist` |
+| Deploy command | empty |
+| Root directory | empty |
+
+Classic Pages has **Build output directory**; the Workers panel does not.
