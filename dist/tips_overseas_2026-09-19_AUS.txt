@@ -1,0 +1,243 @@
+Overseas / Simulcast Tip Sheet — 2026-09-19 Caulfield Racecourse (Australia Simulcast S1) (AUS)
+Source: HKJC GraphQL / real schedule 2026-09-19 | Going: GOOD TO YIELDING | Surface: turf
+Config: /workspace/hkjc-predictor/config/weights_overseas.yaml
+
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere. Overseas scores use generic draw heuristics — local HV/ST draw-bias tables do NOT apply.
+
+Scores 0-100 from fundamentals only (NO odds). Conf % = field softmax; Race confidence = ranking decisiveness. Generic draw (no HV/ST tables).
+========================================================================
+
+S1-1: BM74 Handicap
+  n/a | 1800m | turf | GOOD TO YIELDING
+  Race confidence: 21% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   3 Emperor Tzu (AUS)      69.2   26.4 1/1/2/2/4      7 Jabez Johnston
+  2  12 Sapphire Siren (AUS)   66.8   19.6 1/1/3/1/3     11 Teo Nugent    
+  3   2 Politely Dun (AUS)     62.3   11.1 1/4/9/4/5      9 Damien Thornto
+  4   8 Enviable (AUS)         58.6    7.0 8/7/1/2/4      5 Damian Lane   
+  5  16 Jenni Multabella (NZ   58.4    6.8 2/2/1/3/6     14 Declan Bates  
+  6  15 Oraqua (GB)            55.7    4.9 3/6/3/1/8      4 Harry Coffey  
+  7   7 Flag Flyer (AUS)       55.0    4.5 11/1/1/1/2     2 Jake Noonan   
+  8   6 Fear No Evil (NZ)      54.5    4.2 3/2/7/4/10    13 Jordan Childs 
+  9   4 My Brothers Keeper (   52.6    3.3 8/3/10/4/5     8 Patrick Molone
+ 10   9 Haaracaine (IRE)       51.6    2.9 4/5/5/4/7      6 Mark Zahra    
+ 11  14 Cavalry (AUS)          50.3    2.5 8/2/1/1/2      3 Ben Melham    
+ 12   5 Raf Attack (NZ)        49.8    2.3 12/6/2/11/5   16 Luke Currie   
+ 13  11 Male Model (AUS)       49.0    2.1 7/9/1/5/1     10 Luke Nolen    
+ 14  10 Shiny New Deel (NZ)    43.9    1.1 8/4/7/9/7     15 Blake Shinn   
+ 15  13 Slane (AUS)            43.6    1.1 8/11/8/7/4     1 Sam Kennedy   
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Emperor Tzu (AUS) (conf 26.4%): form=92 CD=40 draw=76 jky=55 trn=55 rtg=74
+  - Sapphire Siren (AUS) (conf 19.6%): form=93 CD=40 draw=68 jky=55 trn=55 rtg=65
+  - Politely Dun (AUS) (conf 11.1%): form=70 CD=40 draw=76 jky=55 trn=55 rtg=84
+
+S1-2: HKJC World Pool Classics Preview
+  n/a | 1800m | turf | GOOD TO YIELDING
+  Race confidence: 18% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   3 Icy You (AUS)          67.5   28.6 1/2            1 Craig Newitt  
+  2   9 Quick Finish (AUS)     65.6   22.6 1/5            6 Jye McNeil    
+  3   1 Arashi Flash (AUS)     64.1   18.8 1/3/10         4 Lachlan Neindo
+  4   2 Frank Whisper (AUS)    62.2   14.8 1/4/8          2 Daniel Stackho
+  5   4 Utopic Future (AUS)    58.5    9.3 5/1            9 Thomas Stockda
+  6   7 Tiger Fox (AUS)        49.2    2.9 6/1/4/5/10     5 Jackie Beriman
+  7   5 Bohemian Boy (AUS)     44.7    1.7 5/6/8          3 Harry Coffey  
+  8   6 Mauristic (AUS)        42.7    1.3 6              8 Jake Noonan   
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Icy You (AUS) (conf 28.6%): form=95 CD=40 draw=54 jky=55 trn=55 rtg=78
+  - Quick Finish (AUS) (conf 22.6%): form=83 CD=40 draw=69 jky=55 trn=55 rtg=78
+  - Arashi Flash (AUS) (conf 18.8%): form=76 CD=40 draw=76 jky=55 trn=55 rtg=78
+
+S1-3: BM100 Handicap
+  n/a | 1100m | turf | GOOD TO YIELDING
+  Race confidence: 8% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   2 Winnasedge (AUS)       65.4   22.1 2/1/1/3/6      6 Luke Currie   
+  2   3 Bev's Nine (AUS)       64.9   20.6 1/2/7/1/1      7 Blake Shinn   
+  3   4 Ndola (AUS)            62.7   15.7 5/4/1/3/1      1 Jackson Radley
+  4   1 Spywire (AUS)          60.2   11.5 4/1/7/5/1     10 Jabez Johnston
+  5  11 Behaviour (AUS)        59.2   10.1 1/3/1/2/3      8 Jett Stanley  
+  6   9 Stokke (AUS)           52.9    4.6 8/5/1/7/1     11 Damian Lane   
+  7   6 Pallaton (AUS)         51.3    3.8 7/11/8/1/4     2 Jordan Childs 
+  8   5 Klabel (NZ)            51.2    3.7 5/6/4/9/2      9 Mark Zahra    
+  9   7 Don't Hope Do (AUS)    49.4    3.0 8/5/4/10/2     4 Jamie Mott    
+ 10  10 Philosopher (AUS)      49.4    3.0 9/4/5/1/4      5 Patrick Molone
+ 11   8 Mcgaw (AUS)            46.3    2.0 12/9/7/8/5     3 Jye McNeil    
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Winnasedge (AUS) (conf 22.1%): form=85 CD=40 draw=62 jky=55 trn=55 rtg=80
+  - Bev's Nine (AUS) (conf 20.6%): form=87 CD=40 draw=57 jky=55 trn=55 rtg=77
+  - Ndola (AUS) (conf 15.7%): form=65 CD=40 draw=90 jky=55 trn=55 rtg=73
+
+S1-4: Thousand Guineas Prelude
+  Group 2 | 1400m | turf | GOOD TO YIELDING
+  Race confidence: 33% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   8 Tolaga Bay (AUS)       67.4   23.5 1/1           11 Michael Dee   
+  2  13 Double Dodger (AUS)    62.6   12.8 1              8 Craig Newitt  
+  3  14 Joely (AUS)            60.7   10.2 1             12 Craig Williams
+  4   5 Profligate (AUS)       59.3    8.5 4/2/1          3 Jordan Childs 
+  5  11 Burning Heartz (AUS)   59.2    8.4 4/1            6 Joe Bowditch  
+  6   9 Icelady (AUS)          57.6    6.9 2/2/2/4        7 Ethan Brown   
+  7  12 Mystical Realm (AUS)   57.4    6.7 4/1            1 Thomas Stockda
+  8  10 Saintly Dancer (NZ)    56.3    5.8 6/1/2          4 John Allen    
+  9   4 Aethera (AUS)          55.3    5.2 9/1            5 Damian Lane   
+ 10   6 Portinari (AUS)        53.8    4.3 3/4/2/8/9     13 Blake Shinn   
+ 11   2 Rebel Tuesday (AUS)    53.6    4.2 10/10/4/1/1    2 Lachlan Neindo
+ 12   3 Leopard Shark (AUS)    48.9    2.3 8/8/2/8/1     10 Jamie Mott    
+ 13   7 Almost An Angel (AUS   43.9    1.2 9/8/3/11/5     9 Luke Nolen    
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Tolaga Bay (AUS) (conf 23.5%): form=100 CD=40 draw=44 jky=55 trn=55 rtg=70
+  - Double Dodger (AUS) (conf 12.8%): form=100 CD=40 draw=58 jky=55 trn=55 rtg=19
+  - Joely (AUS) (conf 10.2%): form=100 CD=40 draw=40 jky=65 trn=55 rtg=8
+
+S1-5: Caulfield Guineas Prelude
+  Group 3 | 1400m | turf | GOOD TO YIELDING
+  Race confidence: 31% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   2 American Eagle (AUS)   68.9   31.2 1/1            8 Mark Zahra    
+  2   5 Wolf Gap (AUS)         64.4   17.7 2/3/1          5 Ethan Brown   
+  3   3 Blind Raise (NZ)       61.8   12.9 1/9/1/1        9 Blake Shinn   
+  4   7 Seraphox (AUS)         60.7   11.2 3/3/1/7        1 Declan Bates  
+  5   6 Confederation (AUS)    57.8    7.8 5/3/8/2        6 Damian Lane   
+  6   9 Alchemistic (AUS)      55.2    5.7 1/5            7 Linda Meech   
+  7   1 Tornado Valley (AUS)   54.4    5.1 4/7/8/6/2      3 Thomas Stockda
+  8   4 Joint Venture (AUS)    53.1    4.4 9/1/3          2 Ben Melham    
+  9   8 Vallice (AUS)          52.6    4.1 4/4/1/5        4 John Allen    
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - American Eagle (AUS) (conf 31.2%): form=100 CD=40 draw=42 jky=55 trn=55 rtg=86
+  - Wolf Gap (AUS) (conf 17.7%): form=84 CD=40 draw=62 jky=55 trn=55 rtg=68
+  - Blind Raise (NZ) (conf 12.9%): form=80 CD=40 draw=35 jky=55 trn=55 rtg=82
+
+S1-6: How Now Stakes
+  Group 3 | 1200m | turf | GOOD TO YIELDING
+  Race confidence: 18% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1  10 Bridal Waltz (AUS)     65.7   24.2 2/2/7/1/3      5 Ben Melham    
+  2   4 Custom (AUS)           63.2   17.7 1/3/1/2/4      7 Ethan Brown   
+  3   8 Miss Freelove (AUS)    59.3   10.9 3/1/6/1/3      1 Blake Shinn   
+  4   2 Inkaruna (AUS)         58.6    9.9 4/12/13/2/2    2 Damian Lane   
+  5  11 Terilee (AUS)          57.1    8.2 5/1/1/4/3      3 Luke Cartwrigh
+  6   1 Ole Dancer (AUS)       55.4    6.7 13/12/3/2/1    6 Luke Nolen    
+  7  12 Photograph (AUS)       54.3    5.8 2/2/6/4/4     10 Jamie Melham  
+  8   3 Point Barrow (AUS)     52.9    4.9 11/5/1/5/1    11 Mark Zahra    
+  9   9 Stardom (AUS)          52.7    4.7 2/4/4/9/12     8 Jordan Childs 
+ 10   6 Hearcomesthestar (AU   52.3    4.5 12/1/3/3/7     4 Beau Mertens  
+ 11   5 Proved (NZ)            47.5    2.5 7/13/1/5/1    12 Carleen Hefel 
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Bridal Waltz (AUS) (conf 24.2%): form=78 CD=40 draw=68 jky=55 trn=55 rtg=89
+  - Custom (AUS) (conf 17.7%): form=89 CD=40 draw=57 jky=55 trn=55 rtg=55
+  - Miss Freelove (AUS) (conf 10.9%): form=77 CD=40 draw=90 jky=55 trn=55 rtg=22
+
+S1-7: Underwood Stakes
+  Group 1 | 1800m | turf | GOOD TO YIELDING
+  Race confidence: 18% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   5 Cosmic Crusader (NZ)   64.9   26.5 3/1/1/2/1      3 William Pike  
+  2   6 Birdman (IRE)          62.6   19.8 6/1/2/5/1      4 Ben Melham    
+  3   1 Lindermann (AUS)       60.9   16.0 1/9/2/2/9      1 Blake Shinn   
+  4   2 Buckaroo (GB)          59.8   13.9 5/5/2/24/2     8 Mark Zahra    
+  5   8 Kingswood (GB)         57.5   10.5 1/5/2/1/4      9 John Allen    
+  6   4 Pinstriped (AUS)       53.9    6.7 2/4/4/5/4      2 Lachlan Neindo
+  7   7 Middle Earth (GB)      51.3    4.8 8/1/9/8/3      5 Ethan Brown   
+  8   3 Attrition (AUS)        43.8    1.9 11/9/11/8/6    7 Jamie Mott    
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Cosmic Crusader (NZ) (conf 26.5%): form=86 CD=40 draw=69 jky=55 trn=55 rtg=67
+  - Birdman (IRE) (conf 19.8%): form=66 CD=40 draw=76 jky=55 trn=75 rtg=75
+  - Lindermann (AUS) (conf 16.0%): form=71 CD=40 draw=54 jky=55 trn=75 rtg=67
+
+S1-8: Naturalism Stakes
+  Group 3 | 2000m | turf | GOOD TO YIELDING
+  Race confidence: 37% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   3 Saint George (GB)      67.0   25.0 1/1/4/4/1     20 Mark Zahra    
+  2   2 Asterix (NZ)           61.6   12.7 5/1/6/6/1     14 Ben Melham    
+  3  12 Strictly Business (A   58.5    8.6 2/13/8/5/1     5 John Allen    
+  4  14 Zahrann (IRE)          56.6    6.8 4/3/5/7/1      8 Ethan Brown   
+  5  18 Zakouma (AUS)          54.9    5.5 6/1/7/1/1      7 William Pike  
+  6   4 Berkeley Square (AUS   54.8    5.4 6/5/6/1/3     19 Declan Bates  
+  7  10 Soulcombe (GB)         54.6    5.3 14/2/7/3/4     4 Beau Mertens  
+  8   5 Wootton Verni (FR)     54.3    5.1 10/8/6/1/5     6 Craig Williams
+  9   6 Campaldino (NZ)        52.7    4.2 9/2/7/1/5     17 Jordan Childs 
+ 10  11 Deakin (FR)            52.7    4.2 3/5/8/6/7      2 Lachlan Neindo
+ 11   9 River Of Stars (IRE)   52.2    3.9 13/7/4/4/10   16 Jye McNeil    
+ 12   7 Onesmoothoperator (U   50.8    3.3 9/16/1/19/4   11 Luke Nolen    
+ 13  16 Machine Gun Gracie (   50.5    3.2 5/6/14/1/9    13 Luke Currie   
+ 14   8 Okita Soushi (IRE)     49.5    2.8 16/10/10/3/1   9 Billy Egan    
+ 15   1 Knight's Choice (AUS   48.8    2.6 12/8/10/7/6   15 Blake Shinn   
+ 16  19 Kings Valley (IRE)     44.4    1.5 8/10/1/9/1    18 TBC           
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Saint George (GB) (conf 25.0%): form=89 CD=40 draw=52 jky=55 trn=55 rtg=90
+  - Asterix (NZ) (conf 12.7%): form=62 CD=40 draw=59 jky=55 trn=75 rtg=90
+  - Strictly Business (AUS) (conf 8.6%): form=60 CD=40 draw=67 jky=55 trn=55 rtg=73
+
+S1-9: Sir Rupert Clarke Stakes
+  Group 1 | 1400m | turf | GOOD TO YIELDING
+  Race confidence: 12% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1  14 Sun God (GB)           67.1   16.8 1/2/1/1/3      2 Jye McNeil    
+  2   6 Lady Shenandoah (AUS   65.6   13.9 4/2/4/3/3      1 Craig Williams
+  3   7 Warnie (IRE)           62.0    8.9 1/4/8/11/3     3 Declan Bates  
+  4   3 Sepals (AUS)           61.5    8.4 2/14/7/4/2     5 Ethan Brown   
+  5   2 Evaporate (NZ)         60.6    7.5 1/3/9/9/2     17 Blake Shinn   
+  6  12 Yellow Jersey (FR)     58.6    5.8 7/2/3/1/1     16 Daniel Stackho
+  7   5 Angel Capital (AUS)    58.1    5.4 10/3/6/2/3     7 Ben Melham    
+  8   4 War Machine (NZ)       58.0    5.4 3/11/3/12/10  18 Damian Lane   
+  9   8 Feroce (NZ)            57.5    5.1 5/2/7/2/14     8 Billy Egan    
+ 10   9 Von Hauke (NZ)         56.5    4.5 3/10/1/5/6     6 Harry Coffey  
+ 11  13 Regal Award (AUS)      55.9    4.1 7/1/5/3/7      4 Lachlan Neindo
+ 12  10 Planet Red (AUS)       55.8    4.1 7/6/2/2/2     10 Michael Dee   
+ 13   1 Tom Kitten (AUS)       54.9    3.7 11/7/1/1/3    14 Mark Zahra    
+ 14  11 Sabaj (AUS)            53.0    2.9 12/4/4/2/12   13 Jamie Melham  
+ 15  15 Persian Spirit (AUS)   51.6    2.4 4/2/8/4/6      9 Damien Thornto
+ 16  16 Recon (AUS)            45.5    1.1 12/6/15/6/1   12 Patrick Molone
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Sun God (GB) (conf 16.8%): form=94 CD=40 draw=86 jky=55 trn=75 rtg=24
+  - Lady Shenandoah (AUS) (conf 13.9%): form=67 CD=40 draw=90 jky=65 trn=75 rtg=73
+  - Warnie (IRE) (conf 8.9%): form=69 CD=40 draw=83 jky=55 trn=55 rtg=67
+
+S1-10: BM84 Handicap
+  n/a | 1400m | turf | GOOD TO YIELDING
+  Race confidence: 11% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1  17 Cruiserweight (NZ)     62.0   16.2 2/4/1/1/1      5 Ethan Brown   
+  2   2 Stylish (AUS)          60.5   13.4 3/7/2/1/2     12 Jackson Radley
+  3   9 Fiorenot (AUS)         58.1    9.9 5/2/1/1/2      9 Jordan Childs 
+  4   7 Porter (AUS)           56.6    8.2 2/5/5/2/4     14 Logan Bates   
+  5   1 Jenni's Meadow (AUS)   54.8    6.6 6/3/6/2/2     19 Thomas Stockda
+  6  15 Grand Omaha (AUS)      53.8    5.8 9/3/3/2/1      4 Patrick Molone
+  7   5 He'll Rip (AUS)        53.1    5.3 7/3/3/2/4     18 Holly Durnan  
+  8   4 Betwitchery (AUS)      53.0    5.3 10/8/3/1/1     6 Luke Cartwrigh
+  9  14 Watersports (NZ)       52.8    5.1 11/6/1/1/3    10 Craig Williams
+ 10  16 Recuperato (AUS)       52.6    5.0 5/1/5/6/4     13 Jye McNeil    
+ 11  18 Inevitable Award (AU   52.5    4.9 3/7/3/1/2     17 T BC          
+ 12   6 Presser (AUS)          52.1    4.7 7/3/4/5/5      7 TBC           
+ 13  10 Dad And Dave (NZ)      50.6    3.9 4/7/9/1/1     16 Jabez Johnston
+ 14  19 Savoyard (AUS)         49.0    3.2 7/2/1         11 Michael Dee   
+ 15  12 Supernima (NZ)         48.1    2.8 8/4/9/4/8      3 Luke Nolen    
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Cruiserweight (NZ) (conf 16.2%): form=84 CD=40 draw=74 jky=55 trn=55 rtg=35
+  - Stylish (AUS) (conf 13.4%): form=69 CD=40 draw=47 jky=55 trn=55 rtg=81
+  - Fiorenot (AUS) (conf 9.9%): form=73 CD=40 draw=59 jky=55 trn=55 rtg=49
+
+========================================================================
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere. Overseas scores use generic draw heuristics — local HV/ST draw-bias tables do NOT apply.

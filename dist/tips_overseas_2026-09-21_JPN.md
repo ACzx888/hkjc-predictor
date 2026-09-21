@@ -1,0 +1,52 @@
+# Overseas / Simulcast Tip Sheet — 2026-09-21 Tokyo (Japan Simulcast S2) (JPN)
+
+Source: `HKJC Simulcast sample` | Going: GOOD | Surface: turf
+Config: `/workspace/hkjc-predictor/config/weights_overseas.yaml`
+
+> DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere. Overseas scores use generic draw heuristics — local HV/ST draw-bias tables do NOT apply.
+
+Scores are 0–100 from fundamental conditions only (no odds/pools).
+Local HV/ST draw-bias tables do **not** apply.
+
+## S2-1: Allowances · Tokyo 1600m
+- Class: Allowance | Distance: 1600m | Surface: turf | Going: GOOD
+- **Race confidence: 40% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 1 | Sakura Blade | 87.4 | 49.9 | 1/2/1/3/4/2 | 3 | Yutaka Take | Yasutoshi Ikee | 98 | 57 |
+| 2 | 2 | Fuji Comet | 83.3 | 29.7 | 2/1/4/2/5/1 | 6 | Christophe Lemaire | Yoshito Yahagi | 96 | 57 |
+| 3 | 7 | Ginza Flash | 74.8 | 10.3 | 2/3/1/5/2/6 | 2 | Tom Marquand | Yasutoshi Ikee | 91 | 54 |
+| 4 | 3 | Kanto Storm | 70.4 | 6.0 | 3/5/2/6/1/4 | 1 | Keita Tosaki | Noriyuki Hori | 94 | 56 |
+| 5 | 4 | Rising Yen | 63.2 | 2.4 | 4/3/6/2/8/5 | 8 | Damian Lane | Hideaki Fujiwara | 92 | 55 |
+| 6 | 5 | Night Market | 56.2 | 1.0 | 5/4/7/3/6/8 | 4 | Mirco Demuro | Mitsumasa Nakauchida | 90 | 55 |
+| 7 | 6 | Pacific Drift | 48.5 | 0.4 | 6/8/5/9/4/7 | 10 | William Buick | Sakae Kunieda | 88 | 54 |
+| 8 | 8 | Meiji Pride | 43.6 | 0.2 | 8/7/9/10/6/11 | 12 | Craig Williams | Noriyuki Hori | 87 | 53 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Sakura Blade** (score=87.4, conf=49.9%): form=90, CD=100, draw=69, jockey=92, trainer=90, rtg=95, wt=64, going/gear=60
+- **Fuji Comet** (score=83.3, conf=29.7%): form=82, CD=100, draw=69, jockey=92, trainer=90, rtg=78, wt=64, going/gear=60
+- **Ginza Flash** (score=74.8, conf=10.3%): form=78, CD=90, draw=61, jockey=78, trainer=90, rtg=49, wt=73, going/gear=60
+
+## S2-2: Open Handicap · Tokyo 2000m
+- Class: Open | Distance: 2000m | Surface: turf | Going: GOOD
+- **Race confidence: 47% (Med)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 1 | Emperor Road | 88.6 | 47.6 | 1/1/3/2/4/1 | 5 | Christophe Lemaire | Yoshito Yahagi | 105 | 58 |
+| 2 | 2 | Shibuya Light | 82.8 | 23.2 | 2/1/2/5/3/2 | 2 | Yutaka Take | Yasutoshi Ikee | 103 | 57.5 |
+| 3 | 8 | Blue Lantern | 76.7 | 10.8 | 2/4/2/3/5/1 | 3 | James McDonald | Chris Waller | 99 | 56 |
+| 4 | 4 | Alpine Echo | 75.6 | 9.4 | 1/3/4/2/7/3 | 4 | Ryan Moore | Aidan O'Brien | 100 | 56.5 |
+| 5 | 3 | Harbor Crown | 72.4 | 6.3 | 3/4/1/6/2/5 | 7 | Joao Moreira | Hideaki Fujiwara | 101 | 57 |
+| 6 | 6 | Maple Ridge | 60.6 | 1.4 | 4/5/3/1/6/4 | 1 | Damian Lane | Mitsumasa Nakauchida | 97 | 55.5 |
+| 7 | 5 | Neo Tokyo | 59.3 | 1.2 | 5/2/6/4/8/3 | 9 | Keita Tosaki | Noriyuki Hori | 98 | 56 |
+| 8 | 7 | Silent Crane | 42.4 | 0.1 | 7/9/8/5/10/6 | 11 | Mirco Demuro | Sakae Kunieda | 95 | 55 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Emperor Road** (score=88.6, conf=47.6%): form=91, CD=100, draw=76, jockey=92, trainer=90, rtg=96, wt=61, going/gear=60
+- **Shibuya Light** (score=82.8, conf=23.2%): form=83, CD=100, draw=61, jockey=92, trainer=90, rtg=80, wt=62, going/gear=60
+- **Blue Lantern** (score=76.7, conf=10.8%): form=76, CD=100, draw=69, jockey=92, trainer=75, rtg=50, wt=67, going/gear=60
+
+---
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere. Overseas scores use generic draw heuristics — local HV/ST draw-bias tables do NOT apply.

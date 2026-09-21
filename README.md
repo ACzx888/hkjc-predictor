@@ -146,6 +146,8 @@ The container listens on port **8080**. GraphQL live refresh needs outbound HTTP
 
 
 ## Deploy to Cloudflare Pages
+**Important:** Do **not** add a root `wrangler.toml`. It makes Pages run wrangler deploy and often fails with `error occurred while running deploy command`. See `docs/cloudflare-pages.md`. Functions still work from `functions/`.
+
 
 Cloudflare Pages serves **static** HTML (no long-running FastAPI). Live HKJC data is refreshed **at build time**; the on-site **Refresh live** button triggers a new Pages build via a Deploy Hook.
 

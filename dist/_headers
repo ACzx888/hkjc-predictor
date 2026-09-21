@@ -1,0 +1,4 @@
+/status.json
+  Cache-Control: public, max-age=60
+/*.html
+  Cache-Control: public, max-age=120

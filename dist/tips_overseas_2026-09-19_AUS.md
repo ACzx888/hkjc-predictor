@@ -1,0 +1,254 @@
+# Overseas / Simulcast Tip Sheet — 2026-09-19 Caulfield Racecourse (Australia Simulcast S1) (AUS)
+
+Source: `HKJC GraphQL / real schedule 2026-09-19` | Going: GOOD TO YIELDING | Surface: turf
+Config: `/workspace/hkjc-predictor/config/weights_overseas.yaml`
+
+> DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere. Overseas scores use generic draw heuristics — local HV/ST draw-bias tables do NOT apply.
+
+Scores are 0–100 from fundamental conditions only (no odds/pools).
+Local HV/ST draw-bias tables do **not** apply.
+
+## S1-1: BM74 Handicap
+- Class: n/a | Distance: 1800m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 21% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 3 | Emperor Tzu (AUS) | 69.2 | 26.4 | 1/1/2/2/4 | 7 | Jabez Johnstone | Ciaron Maher | 75 | 133 |
+| 2 | 12 | Sapphire Siren (AUS) | 66.8 | 19.6 | 1/1/3/1/3 | 11 | Teo Nugent | Bill Papazaharoudakis | 74 | 128 |
+| 3 | 2 | Politely Dun (AUS) | 62.3 | 11.1 | 1/4/9/4/5 | 9 | Damien Thornton | Danny O'Brien | 76 | 135 |
+| 4 | 8 | Enviable (AUS) | 58.6 | 7.0 | 8/7/1/2/4 | 5 | Damian Lane | Chris Waller | 75 | 129 |
+| 5 | 16 | Jenni Multabella (NZ) | 58.4 | 6.8 | 2/2/1/3/6 | 14 | Declan Bates | Lloyd Kennewell | 70 | 123 |
+| 6 | 15 | Oraqua (GB) | 55.7 | 4.9 | 3/6/3/1/8 | 4 | Harry Coffey | Mitchell Freedman | 72 | 126 |
+| 7 | 7 | Flag Flyer (AUS) | 55.0 | 4.5 | 11/1/1/1/2 | 2 | Jake Noonan | Greg Eurell | 72 | 130 |
+| 8 | 6 | Fear No Evil (NZ) | 54.5 | 4.2 | 3/2/7/4/10 | 13 | Jordan Childs | G Waterhouse & A Bott | 72 | 130 |
+| 9 | 4 | My Brothers Keeper (AUS) | 52.6 | 3.3 | 8/3/10/4/5 | 8 | Patrick Moloney | Stephen V Brown | 75 | 133 |
+| 10 | 9 | Haaracaine (IRE) | 51.6 | 2.9 | 4/5/5/4/7 | 6 | Mark Zahra | Nick Ryan | 71 | 129 |
+| 11 | 14 | Cavalry (AUS) | 50.3 | 2.5 | 8/2/1/1/2 | 3 | Ben Melham | M, J & W Hawkes | 68 | 126 |
+| 12 | 5 | Raf Attack (NZ) | 49.8 | 2.3 | 12/6/2/11/5 | 16 | Luke Currie | Tony & Calvin McEvoy | 75 | 133 |
+| 13 | 11 | Male Model (AUS) | 49.0 | 2.1 | 7/9/1/5/1 | 10 | Luke Nolen | John Thom | 70 | 128 |
+| 14 | 10 | Shiny New Deel (NZ) | 43.9 | 1.1 | 8/4/7/9/7 | 15 | Blake Shinn | Gavin Bedggood | 71 | 129 |
+| 15 | 13 | Slane (AUS) | 43.6 | 1.1 | 8/11/8/7/4 | 1 | Sam Kennedy | Enver Jusufovic | 70 | 128 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Emperor Tzu (AUS)** (score=69.2, conf=26.4%): form=92, CD=40, draw=76, jockey=55, trainer=55, rtg=74, wt=74, going/gear=50
+- **Sapphire Siren (AUS)** (score=66.8, conf=19.6%): form=93, CD=40, draw=68, jockey=55, trainer=55, rtg=65, wt=61, going/gear=50
+- **Politely Dun (AUS)** (score=62.3, conf=11.1%): form=70, CD=40, draw=76, jockey=55, trainer=55, rtg=84, wt=51, going/gear=55
+
+## S1-2: HKJC World Pool Classics Preview
+- Class: n/a | Distance: 1800m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 18% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 3 | Icy You (AUS) | 67.5 | 28.6 | 1/2 | 1 | Craig Newitt | T Busuttin & N Young | 62 | 130 |
+| 2 | 9 | Quick Finish (AUS) | 65.6 | 22.6 | 1/5 | 6 | Jye McNeil | Tony & Calvin McEvoy | 62 | 126 |
+| 3 | 1 | Arashi Flash (AUS) | 64.1 | 18.8 | 1/3/10 | 4 | Lachlan Neindorf | T Busuttin & N Young | 62 | 130 |
+| 4 | 2 | Frank Whisper (AUS) | 62.2 | 14.8 | 1/4/8 | 2 | Daniel Stackhouse | Matt Laurie | 62 | 130 |
+| 5 | 4 | Utopic Future (AUS) | 58.5 | 9.3 | 5/1 | 9 | Thomas Stockdale | Ciaron Maher | 62 | 130 |
+| 6 | 7 | Tiger Fox (AUS) | 49.2 | 2.9 | 6/1/4/5/10 | 5 | Jackie Beriman | S Nichols & H Black | 59 | 127 |
+| 7 | 5 | Bohemian Boy (AUS) | 44.7 | 1.7 | 5/6/8 | 3 | Harry Coffey | L&T Corstens/W Larkin | 59 | 127 |
+| 8 | 6 | Mauristic (AUS) | 42.7 | 1.3 | 6 | 8 | Jake Noonan | Julius Sandhu | 59 | 127 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Icy You (AUS)** (score=67.5, conf=28.6%): form=95, CD=40, draw=54, jockey=55, trainer=55, rtg=78, wt=58, going/gear=55
+- **Quick Finish (AUS)** (score=65.6, conf=22.6%): form=83, CD=40, draw=69, jockey=55, trainer=55, rtg=78, wt=64, going/gear=55
+- **Arashi Flash (AUS)** (score=64.1, conf=18.8%): form=76, CD=40, draw=76, jockey=55, trainer=55, rtg=78, wt=58, going/gear=55
+
+## S1-3: BM100 Handicap
+- Class: n/a | Distance: 1100m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 8% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 2 | Winnasedge (AUS) | 65.4 | 22.1 | 2/1/1/3/6 | 6 | Luke Currie | Nick Ryan | 100 | 132 |
+| 2 | 3 | Bev's Nine (AUS) | 64.9 | 20.6 | 1/2/7/1/1 | 7 | Blake Shinn | J O'Shea & T Charlton | 99 | 131 |
+| 3 | 4 | Ndola (AUS) | 62.7 | 15.7 | 5/4/1/3/1 | 1 | Jackson Radley | Ben, Will & JD Hayes | 98 | 130 |
+| 4 | 1 | Spywire (AUS) | 60.2 | 11.5 | 4/1/7/5/1 | 10 | Jabez Johnstone | Ciaron Maher | 104 | 137 |
+| 5 | 11 | Behaviour (AUS) | 59.2 | 10.1 | 1/3/1/2/3 | 8 | Jett Stanley | Gavin Bedggood | 81 | 117 |
+| 6 | 9 | Stokke (AUS) | 52.9 | 4.6 | 8/5/1/7/1 | 11 | Damian Lane | Patrick F Ryan Jnr | 94 | 121 |
+| 7 | 6 | Pallaton (AUS) | 51.3 | 3.8 | 7/11/8/1/4 | 2 | Jordan Childs | Grahame Begg | 92 | 123 |
+| 8 | 5 | Klabel (NZ) | 51.2 | 3.7 | 5/6/4/9/2 | 9 | Mark Zahra | R & C Jolly | 96 | 128 |
+| 9 | 7 | Don't Hope Do (AUS) | 49.4 | 3.0 | 8/5/4/10/2 | 4 | Jamie Mott | Simon Zahra | 90 | 121 |
+| 10 | 10 | Philosopher (AUS) | 49.4 | 3.0 | 9/4/5/1/4 | 5 | Patrick Moloney | Enver Jusufovic | 87 | 118 |
+| 11 | 8 | Mcgaw (AUS) | 46.3 | 2.0 | 12/9/7/8/5 | 3 | Jye McNeil | Emma-Lee &David Browne | 90 | 121 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Winnasedge (AUS)** (score=65.4, conf=22.1%): form=85, CD=40, draw=62, jockey=55, trainer=55, rtg=80, wt=55, going/gear=55
+- **Bev's Nine (AUS)** (score=64.9, conf=20.6%): form=87, CD=40, draw=57, jockey=55, trainer=55, rtg=77, wt=57, going/gear=50
+- **Ndola (AUS)** (score=62.7, conf=15.7%): form=65, CD=40, draw=90, jockey=55, trainer=55, rtg=73, wt=78, going/gear=55
+
+## S1-4: Thousand Guineas Prelude
+- Class: Group 2 | Distance: 1400m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 33% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 8 | Tolaga Bay (AUS) | 67.4 | 23.5 | 1/1 | 11 | Michael Dee | Mark Walker | 68 | 123 |
+| 2 | 13 | Double Dodger (AUS) | 62.6 | 12.8 | 1 | 8 | Craig Newitt | Jerome Hunter | 63 | 123 |
+| 3 | 14 | Joely (AUS) | 60.7 | 10.2 | 1 | 12 | Craig Williams | T Busuttin & N Young | 62 | 123 |
+| 4 | 5 | Profligate (AUS) | 59.3 | 8.5 | 4/2/1 | 3 | Jordan Childs | Grahame Begg | 65 | 123 |
+| 5 | 11 | Burning Heartz (AUS) | 59.2 | 8.4 | 4/1 | 6 | Joe Bowditch | Gavin Bedggood | 66 | 123 |
+| 6 | 9 | Icelady (AUS) | 57.6 | 6.9 | 2/2/2/4 | 7 | Ethan Brown | Ciaron Maher | 63 | 123 |
+| 7 | 12 | Mystical Realm (AUS) | 57.4 | 6.7 | 4/1 | 1 | Thomas Stockdale | Ciaron Maher | 63 | 123 |
+| 8 | 10 | Saintly Dancer (NZ) | 56.3 | 5.8 | 6/1/2 | 4 | John Allen | Ciaron Maher | 65 | 123 |
+| 9 | 4 | Aethera (AUS) | 55.3 | 5.2 | 9/1 | 5 | Damian Lane | Danny O'Brien | 67 | 123 |
+| 10 | 6 | Portinari (AUS) | 53.8 | 4.3 | 3/4/2/8/9 | 13 | Blake Shinn | Ben, Will & JD Hayes | 67 | 123 |
+| 11 | 2 | Rebel Tuesday (AUS) | 53.6 | 4.2 | 10/10/4/1/1 | 2 | Lachlan Neindorf | Phillip & Tommy Stokes | 69 | 126 |
+| 12 | 3 | Leopard Shark (AUS) | 48.9 | 2.3 | 8/8/2/8/1 | 10 | Jamie Mott | Clayton Douglas | 67 | 123 |
+| 13 | 7 | Almost An Angel (AUS) | 43.9 | 1.2 | 9/8/3/11/5 | 9 | Luke Nolen | Robbie Griffiths | 65 | 123 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Tolaga Bay (AUS)** (score=67.4, conf=23.5%): form=100, CD=40, draw=44, jockey=55, trainer=55, rtg=70, wt=68, going/gear=50
+- **Double Dodger (AUS)** (score=62.6, conf=12.8%): form=100, CD=40, draw=58, jockey=55, trainer=55, rtg=19, wt=68, going/gear=50
+- **Joely (AUS)** (score=60.7, conf=10.2%): form=100, CD=40, draw=40, jockey=65, trainer=55, rtg=8, wt=68, going/gear=50
+
+## S1-5: Caulfield Guineas Prelude
+- Class: Group 3 | Distance: 1400m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 31% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 2 | American Eagle (AUS) | 68.9 | 31.2 | 1/1 | 8 | Mark Zahra | Anthony & Sam Freedman | 83 | 128 |
+| 2 | 5 | Wolf Gap (AUS) | 64.4 | 17.7 | 2/3/1 | 5 | Ethan Brown | Anthony & Sam Freedman | 78 | 123 |
+| 3 | 3 | Blind Raise (NZ) | 61.8 | 12.9 | 1/9/1/1 | 9 | Blake Shinn | T Busuttin & N Young | 82 | 126 |
+| 4 | 7 | Seraphox (AUS) | 60.7 | 11.2 | 3/3/1/7 | 1 | Declan Bates | Ciaron Maher | 72 | 123 |
+| 5 | 6 | Confederation (AUS) | 57.8 | 7.8 | 5/3/8/2 | 6 | Damian Lane | Chris Waller | 74 | 123 |
+| 6 | 9 | Alchemistic (AUS) | 55.2 | 5.7 | 1/5 | 7 | Linda Meech | Tom Dabernig | 62 | 123 |
+| 7 | 1 | Tornado Valley (AUS) | 54.4 | 5.1 | 4/7/8/6/2 | 3 | Thomas Stockdale | Ciaron Maher | 78 | 128 |
+| 8 | 4 | Joint Venture (AUS) | 53.1 | 4.4 | 9/1/3 | 2 | Ben Melham | Chris Waller | 67 | 123 |
+| 9 | 8 | Vallice (AUS) | 52.6 | 4.1 | 4/4/1/5 | 4 | John Allen | Ciaron Maher | 64 | 123 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **American Eagle (AUS)** (score=68.9, conf=31.2%): form=100, CD=40, draw=42, jockey=55, trainer=55, rtg=86, wt=61, going/gear=55
+- **Wolf Gap (AUS)** (score=64.4, conf=17.7%): form=84, CD=40, draw=62, jockey=55, trainer=55, rtg=68, wt=68, going/gear=55
+- **Blind Raise (NZ)** (score=61.8, conf=12.9%): form=80, CD=40, draw=35, jockey=55, trainer=55, rtg=82, wt=64, going/gear=50
+
+## S1-6: How Now Stakes
+- Class: Group 3 | Distance: 1200m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 18% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 10 | Bridal Waltz (AUS) | 65.7 | 24.2 | 2/2/7/1/3 | 5 | Ben Melham | P G Moody & K Coleman | 108 | 121 |
+| 2 | 4 | Custom (AUS) | 63.2 | 17.7 | 1/3/1/2/4 | 7 | Ethan Brown | Ciaron Maher | 103 | 126 |
+| 3 | 8 | Miss Freelove (AUS) | 59.3 | 10.9 | 3/1/6/1/3 | 1 | Blake Shinn | Peter Snowden | 98 | 123 |
+| 4 | 2 | Inkaruna (AUS) | 58.6 | 9.9 | 4/12/13/2/2 | 2 | Damian Lane | Anthony & Sam Freedman | 104 | 126 |
+| 5 | 11 | Terilee (AUS) | 57.1 | 8.2 | 5/1/1/4/3 | 3 | Luke Cartwright | Michael Kent | 99 | 121 |
+| 6 | 1 | Ole Dancer (AUS) | 55.4 | 6.7 | 13/12/3/2/1 | 6 | Luke Nolen | P G Moody & K Coleman | 109 | 130 |
+| 7 | 12 | Photograph (AUS) | 54.3 | 5.8 | 2/2/6/4/4 | 10 | Jamie Melham | Ben, Will & JD Hayes | 99 | 121 |
+| 8 | 3 | Point Barrow (AUS) | 52.9 | 4.9 | 11/5/1/5/1 | 11 | Mark Zahra | Anthony & Sam Freedman | 107 | 126 |
+| 9 | 9 | Stardom (AUS) | 52.7 | 4.7 | 2/4/4/9/12 | 8 | Jordan Childs | G Waterhouse & A Bott | 100 | 123 |
+| 10 | 6 | Hearcomesthestar (AUS) | 52.3 | 4.5 | 12/1/3/3/7 | 4 | Beau Mertens | John Moloney | 100 | 123 |
+| 11 | 5 | Proved (NZ) | 47.5 | 2.5 | 7/13/1/5/1 | 12 | Carleen Hefel | Enver Jusufovic | 101 | 126 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Bridal Waltz (AUS)** (score=65.7, conf=24.2%): form=78, CD=40, draw=68, jockey=55, trainer=55, rtg=89, wt=70, going/gear=55
+- **Custom (AUS)** (score=63.2, conf=17.7%): form=89, CD=40, draw=57, jockey=55, trainer=55, rtg=55, wt=64, going/gear=50
+- **Miss Freelove (AUS)** (score=59.3, conf=10.9%): form=77, CD=40, draw=90, jockey=55, trainer=55, rtg=22, wt=68, going/gear=55
+
+## S1-7: Underwood Stakes
+- Class: Group 1 | Distance: 1800m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 18% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 5 | Cosmic Crusader (NZ) | 64.9 | 26.5 | 3/1/1/2/1 | 3 | William Pike | Andrea Leek | 115 | 130 |
+| 2 | 6 | Birdman (IRE) | 62.6 | 19.8 | 6/1/2/5/1 | 4 | Ben Melham | Chris Waller | 116 | 130 |
+| 3 | 1 | Lindermann (AUS) | 60.9 | 16.0 | 1/9/2/2/9 | 1 | Blake Shinn | Chris Waller | 115 | 130 |
+| 4 | 2 | Buckaroo (GB) | 59.8 | 13.9 | 5/5/2/24/2 | 8 | Mark Zahra | Chris Waller | 119 | 130 |
+| 5 | 8 | Kingswood (GB) | 57.5 | 10.5 | 1/5/2/1/4 | 9 | John Allen | Gavin Bedggood | 110 | 130 |
+| 6 | 4 | Pinstriped (AUS) | 53.9 | 6.7 | 2/4/4/5/4 | 2 | Lachlan Neindorf | Enver Jusufovic | 110 | 130 |
+| 7 | 7 | Middle Earth (GB) | 51.3 | 4.8 | 8/1/9/8/3 | 5 | Ethan Brown | Ciaron Maher | 113 | 130 |
+| 8 | 3 | Attrition (AUS) | 43.8 | 1.9 | 11/9/11/8/6 | 7 | Jamie Mott | Mitchell Freedman | 113 | 130 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Cosmic Crusader (NZ)** (score=64.9, conf=26.5%): form=86, CD=40, draw=69, jockey=55, trainer=55, rtg=67, wt=58, going/gear=55
+- **Birdman (IRE)** (score=62.6, conf=19.8%): form=66, CD=40, draw=76, jockey=55, trainer=75, rtg=75, wt=58, going/gear=55
+- **Lindermann (AUS)** (score=60.9, conf=16.0%): form=71, CD=40, draw=54, jockey=55, trainer=75, rtg=67, wt=58, going/gear=55
+
+## S1-8: Naturalism Stakes
+- Class: Group 3 | Distance: 2000m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 37% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 3 | Saint George (GB) | 67.0 | 25.0 | 1/1/4/4/1 | 20 | Mark Zahra | Ciaron Maher | 108 | 129 |
+| 2 | 2 | Asterix (NZ) | 61.6 | 12.7 | 5/1/6/6/1 | 14 | Ben Melham | Chris Waller | 108 | 129 |
+| 3 | 12 | Strictly Business (AUS) | 58.5 | 8.6 | 2/13/8/5/1 | 5 | John Allen | Thomas Carberry | 105 | 121 |
+| 4 | 14 | Zahrann (IRE) | 56.6 | 6.8 | 4/3/5/7/1 | 8 | Ethan Brown | Ciaron Maher | 101 | 121 |
+| 5 | 18 | Zakouma (AUS) | 54.9 | 5.5 | 6/1/7/1/1 | 7 | William Pike | Grahame Begg | 97 | 119 |
+| 6 | 4 | Berkeley Square (AUS) | 54.8 | 5.4 | 6/5/6/1/3 | 19 | Declan Bates | Dan O'Sullivan | 107 | 128 |
+| 7 | 10 | Soulcombe (GB) | 54.6 | 5.3 | 14/2/7/3/4 | 4 | Beau Mertens | Chris Waller | 103 | 123 |
+| 8 | 5 | Wootton Verni (FR) | 54.3 | 5.1 | 10/8/6/1/5 | 6 | Craig Williams | Chris Waller | 107 | 128 |
+| 9 | 6 | Campaldino (NZ) | 52.7 | 4.2 | 9/2/7/1/5 | 17 | Jordan Childs | G Waterhouse & A Bott | 106 | 127 |
+| 10 | 11 | Deakin (FR) | 52.7 | 4.2 | 3/5/8/6/7 | 2 | Lachlan Neindorf | Phillip & Tommy Stokes | 102 | 122 |
+| 11 | 9 | River Of Stars (IRE) | 52.2 | 3.9 | 13/7/4/4/10 | 16 | Jye McNeil | Chris Waller | 107 | 123 |
+| 12 | 7 | Onesmoothoperator (USA) | 50.8 | 3.3 | 9/16/1/19/4 | 11 | Luke Nolen | Tim Fitzsimmons | 105 | 126 |
+| 13 | 16 | Machine Gun Gracie (AUS) | 50.5 | 3.2 | 5/6/14/1/9 | 13 | Luke Currie | Ben, Will & JD Hayes | 100 | 119 |
+| 14 | 8 | Okita Soushi (IRE) | 49.5 | 2.8 | 16/10/10/3/1 | 9 | Billy Egan | Ciaron Maher | 103 | 123 |
+| 15 | 1 | Knight's Choice (AUS) | 48.8 | 2.6 | 12/8/10/7/6 | 15 | Blake Shinn | J Symons & S Laxon | 109 | 130 |
+| 16 | 19 | Kings Valley (IRE) | 44.4 | 1.5 | 8/10/1/9/1 | 18 | TBC | Ciaron Maher | 96 | 119 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Saint George (GB)** (score=67.0, conf=25.0%): form=89, CD=40, draw=52, jockey=55, trainer=55, rtg=90, wt=59, going/gear=55
+- **Asterix (NZ)** (score=61.6, conf=12.7%): form=62, CD=40, draw=59, jockey=55, trainer=75, rtg=90, wt=59, going/gear=55
+- **Strictly Business (AUS)** (score=58.5, conf=8.6%): form=60, CD=40, draw=67, jockey=55, trainer=55, rtg=73, wt=70, going/gear=55
+
+## S1-9: Sir Rupert Clarke Stakes
+- Class: Group 1 | Distance: 1400m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 12% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 14 | Sun God (GB) | 67.1 | 16.8 | 1/2/1/1/3 | 2 | Jye McNeil | Chris Waller | 103 | 116 |
+| 2 | 6 | Lady Shenandoah (AUS) | 65.6 | 13.9 | 4/2/4/3/3 | 1 | Craig Williams | Chris Waller | 111 | 123 |
+| 3 | 7 | Warnie (IRE) | 62.0 | 8.9 | 1/4/8/11/3 | 3 | Declan Bates | Ciaron Maher | 110 | 121 |
+| 4 | 3 | Sepals (AUS) | 61.5 | 8.4 | 2/14/7/4/2 | 5 | Ethan Brown | Cliff Brown | 114 | 125 |
+| 5 | 2 | Evaporate (NZ) | 60.6 | 7.5 | 1/3/9/9/2 | 17 | Blake Shinn | Ben, Will & JD Hayes | 114 | 125 |
+| 6 | 12 | Yellow Jersey (FR) | 58.6 | 5.8 | 7/2/3/1/1 | 16 | Daniel Stackhouse | Tony & Calvin McEvoy | 114 | 117 |
+| 7 | 5 | Angel Capital (AUS) | 58.1 | 5.4 | 10/3/6/2/3 | 7 | Ben Melham | Chris Waller | 115 | 123 |
+| 8 | 4 | War Machine (NZ) | 58.0 | 5.4 | 3/11/3/12/10 | 18 | Damian Lane | Ben, Will & JD Hayes | 115 | 125 |
+| 9 | 8 | Feroce (NZ) | 57.5 | 5.1 | 5/2/7/2/14 | 8 | Billy Egan | Dominic Sutton | 112 | 120 |
+| 10 | 9 | Von Hauke (NZ) | 56.5 | 4.5 | 3/10/1/5/6 | 6 | Harry Coffey | Cliff Brown | 109 | 120 |
+| 11 | 13 | Regal Award (AUS) | 55.9 | 4.1 | 7/1/5/3/7 | 4 | Lachlan Neindorf | Phillip & Tommy Stokes | 108 | 116 |
+| 12 | 10 | Planet Red (AUS) | 55.8 | 4.1 | 7/6/2/2/2 | 10 | Michael Dee | M Price & M Kent (Jnr) | 112 | 118 |
+| 13 | 1 | Tom Kitten (AUS) | 54.9 | 3.7 | 11/7/1/1/3 | 14 | Mark Zahra | Anthony & Sam Freedman | 115 | 130 |
+| 14 | 11 | Sabaj (AUS) | 53.0 | 2.9 | 12/4/4/2/12 | 13 | Jamie Melham | M Price & M Kent (Jnr) | 113 | 117 |
+| 15 | 15 | Persian Spirit (AUS) | 51.6 | 2.4 | 4/2/8/4/6 | 9 | Damien Thornton | Symon Wilde | 103 | 115 |
+| 16 | 16 | Recon (AUS) | 45.5 | 1.1 | 12/6/15/6/1 | 12 | Patrick Moloney | P Carey & H Walker | 105 | 115 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Sun God (GB)** (score=67.1, conf=16.8%): form=94, CD=40, draw=86, jockey=55, trainer=75, rtg=24, wt=77, going/gear=55
+- **Lady Shenandoah (AUS)** (score=65.6, conf=13.9%): form=67, CD=40, draw=90, jockey=65, trainer=75, rtg=73, wt=68, going/gear=50
+- **Warnie (IRE)** (score=62.0, conf=8.9%): form=69, CD=40, draw=83, jockey=55, trainer=55, rtg=67, wt=70, going/gear=55
+
+## S1-10: BM84 Handicap
+- Class: n/a | Distance: 1400m | Surface: turf | Going: GOOD TO YIELDING
+- **Race confidence: 11% (Low)**
+
+| Rank | No | Horse | Score | Conf % | Form | Draw | Jockey | Trainer | Rtg | Wt |
+|-----:|---:|-------|------:|-------:|------|-----:|--------|---------|----:|---:|
+| 1 | 17 | Cruiserweight (NZ) | 62.0 | 16.2 | 2/4/1/1/1 | 5 | Ethan Brown | Ben, Will & JD Hayes | 74 | 121 |
+| 2 | 2 | Stylish (AUS) | 60.5 | 13.4 | 3/7/2/1/2 | 12 | Jackson Radley | Ben, Will & JD Hayes | 87 | 131 |
+| 3 | 9 | Fiorenot (AUS) | 58.1 | 9.9 | 5/2/1/1/2 | 9 | Jordan Childs | Tom Dabernig | 78 | 126 |
+| 4 | 7 | Porter (AUS) | 56.6 | 8.2 | 2/5/5/2/4 | 14 | Logan Bates | Danny O'Brien | 79 | 127 |
+| 5 | 1 | Jenni's Meadow (AUS) | 54.8 | 6.6 | 6/3/6/2/2 | 19 | Thomas Stockdale | Ciaron Maher | 89 | 133 |
+| 6 | 15 | Grand Omaha (AUS) | 53.8 | 5.8 | 9/3/3/2/1 | 4 | Patrick Moloney | Matt Laurie | 77 | 120 |
+| 7 | 5 | He'll Rip (AUS) | 53.1 | 5.3 | 7/3/3/2/4 | 18 | Holly Durnan | L&T Corstens/W Larkin | 80 | 128 |
+| 8 | 4 | Betwitchery (AUS) | 53.0 | 5.3 | 10/8/3/1/1 | 6 | Luke Cartwright | L&T Corstens/W Larkin | 84 | 128 |
+| 9 | 14 | Watersports (NZ) | 52.8 | 5.1 | 11/6/1/1/3 | 10 | Craig Williams | Archie Alexander | 78 | 121 |
+| 10 | 16 | Recuperato (AUS) | 52.6 | 5.0 | 5/1/5/6/4 | 13 | Jye McNeil | Peter Gelagotis | 77 | 120 |
+| 11 | 18 | Inevitable Award (AUS) | 52.5 | 4.9 | 3/7/3/1/2 | 17 | T BC | Paul Preusker | 73 | 120 |
+| 12 | 6 | Presser (AUS) | 52.1 | 4.7 | 7/3/4/5/5 | 7 | TBC | Gavin Bedggood | 80 | 128 |
+| 13 | 10 | Dad And Dave (NZ) | 50.6 | 3.9 | 4/7/9/1/1 | 16 | Jabez Johnstone | Ciaron Maher | 75 | 122 |
+| 14 | 19 | Savoyard (AUS) | 49.0 | 3.2 | 7/2/1 | 11 | Michael Dee | Cliff Brown | 67 | 117 |
+| 15 | 12 | Supernima (NZ) | 48.1 | 2.8 | 8/4/9/4/8 | 3 | Luke Nolen | P G Moody & K Coleman | 75 | 122 |
+
+### Factor breakdown (top 3) — generic draw (no HV/ST tables)
+- **Cruiserweight (NZ)** (score=62.0, conf=16.2%): form=84, CD=40, draw=74, jockey=55, trainer=55, rtg=35, wt=70, going/gear=60
+- **Stylish (AUS)** (score=60.5, conf=13.4%): form=69, CD=40, draw=47, jockey=55, trainer=55, rtg=81, wt=77, going/gear=55
+- **Fiorenot (AUS)** (score=58.1, conf=9.9%): form=73, CD=40, draw=59, jockey=55, trainer=55, rtg=49, wt=64, going/gear=55
+
+---
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere. Overseas scores use generic draw heuristics — local HV/ST draw-bias tables do NOT apply.

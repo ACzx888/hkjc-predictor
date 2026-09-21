@@ -1,0 +1,55 @@
+HKJC Tip Sheet — 2026-09-17 Happy Valley (HV)
+Source: sample | Going: GOOD | Surface: turf
+Config: /workspace/hkjc-predictor/config/weights.yaml
+
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere.
+
+Scores 0-100 from fundamentals only (NO odds). Conf % = field softmax; Race confidence = ranking decisiveness.
+========================================================================
+
+Race 1: Tai Hang Handicap
+  Class 4 | 1200m | turf | GOOD
+  Race confidence: 45% (Med)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   1 Swift Current          82.2   40.9 1/3/5/8/2/4    2 Zac Purton    
+  2   4 Lucky Bamboo           76.7   20.6 3/2/1/5/4/8    1 Ellis Wong    
+  3   2 Harbour Lights         76.0   18.9 2/1/4/6/3/7    5 Karis Teetan  
+  4   8 Jade Empress           70.4    9.3 2/4/1/3/6/5    3 Derek Leung   
+  5   6 Night Whisper          63.9    4.1 5/4/3/2/7/6    4 Lyle Hewitson 
+  6   3 Dragon Peak            61.9    3.2 4/5/2/9/6/1    8 Vincent Ho    
+  7  10 Pacific Breeze         54.8    1.3 4/3/6/2/8/1    6 Angus Chung   
+  8   5 Golden Trident         50.3    0.8 6/8/4/3/10/5  11 Matthew Chadwi
+  9   7 Silver Arrow           48.8    0.6 7/6/8/4/5/3    7 Alexis Badel  
+ 10   9 Thunder Road           40.1    0.2 8/7/9/5/4/10   9 Antoine Hameli
+
+  Top 3 factor notes:
+  - Swift Current (conf 40.9%): form=75 CD=90 draw=90 jky=92 trn=90 rtg=83
+  - Lucky Bamboo (conf 20.6%): form=72 CD=100 draw=95 jky=48 trn=75 rtg=57
+  - Harbour Lights (conf 18.9%): form=75 CD=90 draw=70 jky=78 trn=90 rtg=66
+
+Race 2: Causeway Bay Handicap
+  Class 3 | 1650m | turf | GOOD
+  Race confidence: 23% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   1 Empire Star            86.3   39.0 1/2/3/1/4/5    3 Hugh Bowman   
+  2   2 Victory March          85.1   33.4 2/1/2/5/3/4    1 Zac Purton    
+  3   5 Storm Chaser           75.7   10.3 1/4/2/3/5/6    4 Vincent Ho    
+  4   3 Red Phoenix            73.7    8.1 3/4/1/6/2/8    6 Joao Moreira  
+  5   7 Iron Will              66.9    3.4 4/2/5/1/6/3    2 M F Poon      
+  6   9 Blue Horizon           66.9    3.4 3/5/2/4/1/7    5 Alexis Badel  
+  7   4 Moonlit Path           54.7    0.7 5/6/4/7/3/9   10 Karis Teetan  
+  8   6 Crystal Bay            54.4    0.7 6/5/7/4/8/2    8 Lyle Hewitson 
+  9  10 Royal Decree           48.9    0.4 7/3/8/5/4/6    7 Brenton Avdull
+ 10  11 Silent Force           45.9    0.2 5/7/4/8/6/3    9 Harry Bentley 
+ 11   8 Autumn Flame           40.1    0.1 9/8/6/10/7/5  12 Matthew Chadwi
+ 12  12 Fortune Wheel          38.0    0.1 8/9/5/6/10/4  11 Keagan de Melo
+
+  Top 3 factor notes:
+  - Empire Star (conf 39.0%): form=86 CD=100 draw=85 jky=92 trn=90 rtg=84
+  - Victory March (conf 33.4%): form=81 CD=100 draw=95 jky=92 trn=90 rtg=75
+  - Storm Chaser (conf 10.3%): form=78 CD=90 draw=78 jky=78 trn=75 rtg=58
+
+========================================================================
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere.

@@ -1,0 +1,49 @@
+Overseas / Simulcast Tip Sheet — 2026-09-21 Tokyo (Japan Simulcast S2) (JPN)
+Source: HKJC Simulcast sample | Going: GOOD | Surface: turf
+Config: /workspace/hkjc-predictor/config/weights_overseas.yaml
+
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere. Overseas scores use generic draw heuristics — local HV/ST draw-bias tables do NOT apply.
+
+Scores 0-100 from fundamentals only (NO odds). Conf % = field softmax; Race confidence = ranking decisiveness. Generic draw (no HV/ST tables).
+========================================================================
+
+S2-1: Allowances · Tokyo 1600m
+  Allowance | 1600m | turf | GOOD
+  Race confidence: 40% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   1 Sakura Blade           87.4   49.9 1/2/1/3/4/2    3 Yutaka Take   
+  2   2 Fuji Comet             83.3   29.7 2/1/4/2/5/1    6 Christophe Lem
+  3   7 Ginza Flash            74.8   10.3 2/3/1/5/2/6    2 Tom Marquand  
+  4   3 Kanto Storm            70.4    6.0 3/5/2/6/1/4    1 Keita Tosaki  
+  5   4 Rising Yen             63.2    2.4 4/3/6/2/8/5    8 Damian Lane   
+  6   5 Night Market           56.2    1.0 5/4/7/3/6/8    4 Mirco Demuro  
+  7   6 Pacific Drift          48.5    0.4 6/8/5/9/4/7   10 William Buick 
+  8   8 Meiji Pride            43.6    0.2 8/7/9/10/6/11  12 Craig Williams
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Sakura Blade (conf 49.9%): form=90 CD=100 draw=69 jky=92 trn=90 rtg=95
+  - Fuji Comet (conf 29.7%): form=82 CD=100 draw=69 jky=92 trn=90 rtg=78
+  - Ginza Flash (conf 10.3%): form=78 CD=90 draw=61 jky=78 trn=90 rtg=49
+
+S2-2: Open Handicap · Tokyo 2000m
+  Open | 2000m | turf | GOOD
+  Race confidence: 47% (Med)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   1 Emperor Road           88.6   47.6 1/1/3/2/4/1    5 Christophe Lem
+  2   2 Shibuya Light          82.8   23.2 2/1/2/5/3/2    2 Yutaka Take   
+  3   8 Blue Lantern           76.7   10.8 2/4/2/3/5/1    3 James McDonald
+  4   4 Alpine Echo            75.6    9.4 1/3/4/2/7/3    4 Ryan Moore    
+  5   3 Harbor Crown           72.4    6.3 3/4/1/6/2/5    7 Joao Moreira  
+  6   6 Maple Ridge            60.6    1.4 4/5/3/1/6/4    1 Damian Lane   
+  7   5 Neo Tokyo              59.3    1.2 5/2/6/4/8/3    9 Keita Tosaki  
+  8   7 Silent Crane           42.4    0.1 7/9/8/5/10/6  11 Mirco Demuro  
+
+  Top 3 (generic draw — no local HV/ST bias tables):
+  - Emperor Road (conf 47.6%): form=91 CD=100 draw=76 jky=92 trn=90 rtg=96
+  - Shibuya Light (conf 23.2%): form=83 CD=100 draw=61 jky=92 trn=90 rtg=80
+  - Blue Lantern (conf 10.8%): form=76 CD=100 draw=69 jky=92 trn=75 rtg=50
+
+========================================================================
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere. Overseas scores use generic draw heuristics — local HV/ST draw-bias tables do NOT apply.

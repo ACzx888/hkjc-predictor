@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>本地 Local — HKJC</title>
+<style>
+:root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8;
+        --accent:#3d8bfd; --accent2:#2dd4bf; --border:#2a3648; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: "Segoe UI", "Noto Sans TC", system-ui, sans-serif;
+       background: var(--bg); color: var(--text); line-height: 1.5; }
+a { color: var(--accent2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+header { background: var(--card); border-bottom: 1px solid var(--border);
+         padding: 1rem 1.5rem; }
+nav { display:flex; gap:1rem; flex-wrap:wrap; align-items:center; }
+nav a.tab { padding:0.4rem 0.9rem; border-radius:999px; border:1px solid var(--border);
+            color: var(--muted); }
+nav a.tab.active, nav a.tab:hover { background: var(--accent); color:#fff; border-color: var(--accent); }
+main { max-width: 960px; margin: 0 auto; padding: 1.5rem; }
+h1 { font-size: 1.5rem; margin: 0 0 0.25rem; }
+h2 { font-size: 1.15rem; margin-top: 1.75rem; color: var(--accent2); }
+.meta, .source, .disclaimer { color: var(--muted); font-size: 0.92rem; }
+.source { margin: 0.75rem 0; padding: 0.6rem 0.8rem; background: var(--card);
+          border-left: 3px solid var(--accent); border-radius: 4px; }
+.disclaimer { margin-top: 2rem; padding: 1rem; border: 1px solid var(--border);
+              border-radius: 8px; background: var(--card); }
+table { width:100%; border-collapse: collapse; margin: 0.75rem 0 1rem;
+        font-size: 0.9rem; }
+th, td { padding: 0.45rem 0.5rem; border-bottom: 1px solid var(--border); text-align: left; }
+th { color: var(--muted); font-weight: 600; }
+td.num, th.num { text-align: right; }
+.factors { font-size: 0.85rem; color: var(--muted); }
+footer { max-width:960px; margin:0 auto; padding:1rem 1.5rem 2rem; color:var(--muted);
+         font-size:0.85rem; }
+.card-link { display:block; padding:1rem; margin:0.75rem 0; background:var(--card);
+             border:1px solid var(--border); border-radius:8px; color:var(--text); }
+.card-link:hover { border-color: var(--accent); }
+
+
+.btn-refresh {
+  appearance: none; cursor: pointer;
+  padding: 0.45rem 1rem; border-radius: 999px;
+  border: 1px solid var(--accent); background: transparent;
+  color: var(--text); font: inherit; font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.btn-refresh:hover:not(:disabled) { background: var(--accent); color: #fff; }
+.btn-refresh:disabled { opacity: 0.55; cursor: wait; }
+.btn-refresh .spin {
+  display: inline-block; width: 0.85em; height: 0.85em;
+  border: 2px solid currentColor; border-right-color: transparent;
+  border-radius: 50%; margin-right: 0.4em; vertical-align: -0.1em;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.status-bar {
+  margin: 0.75rem 0; padding: 0.6rem 0.8rem; background: var(--card);
+  border-left: 3px solid var(--accent2); border-radius: 4px;
+  color: var(--muted); font-size: 0.92rem;
+}
+.status-bar strong { color: var(--text); }
+#refresh-status { margin-left: 0.5rem; color: var(--accent2); }
+nav { gap: 0.75rem; }
+
+</style>
+</head>
+<body>
+<header>
+  <h1>HKJC Predictor · 基本面提示單</h1>
+  <p class="meta">Fundamentals only · 不含賠率 No odds</p>
+  <nav><a class="tab" href="index.html">首頁 Home</a>
+<a class="tab active" href="local.html">本地 Local</a>
+<a class="tab" href="overseas.html">海外 Overseas</a></nav>
+  <button type="button" class="btn-refresh" data-refresh>🔄 Refresh live · 即時更新</button><span id="refresh-status"></span>
+</header>
+<main>
+<h1>本地 Local · 香港賽事</h1>
+<p class="meta">Local HKJC tip sheets (HV / ST). Separate from overseas.</p>
+<h2>最新提示單 Latest tip sheets</h2>
+<a class="card-link" href="tips_2026-09-23_HV.md">tips_2026-09-23_HV.md</a>
+<a class="card-link" href="tips_2026-09-17_HV.md">tips_2026-09-17_HV.md</a>
+<h2>Preview</h2>
+<pre>HKJC Tip Sheet — 2026-09-23 Happy Valley (HV)
+Source: HKJC GraphQL / 2026-09-23 | Going: GOOD | Surface: turf
+Config: /workspace/hkjc-predictor/config/weights.yaml
+
+DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere.
+
+Scores 0-100 from fundamentals only (NO odds). Conf % = field softmax; Race confidence = ranking decisiveness.
+========================================================================
+
+Race 1: NAM FUNG HANDICAP
+  Class 5 | 1650m | turf | GOOD
+  Race confidence: 27% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   3 SOARING BRONCO         58.6   25.1 5/3/3/2/1/10   4 L Ferraris    
+  2  11 ORIENTAL SURPRISE      54.7   15.4 3/2/2/12/2/8   3 Z Purton      
+  3   4 RED BRICK WARRIOR      52.2   11.4 9/5/7/7/4/7    1 C L Chau      
+  4   8 TELECOM POWER          51.8   10.8 4/2/5/3/4/10   8 H Y Yuen      
+  5   6 ALL ARE MINE           50.6    9.3 3/1/6/9/6/3   11 L Hewitson    
+  6   2 SMILING ONE            47.8    6.6 11/13/8/10/8/14   5 R Kingscote   
+  7   7 CIRCUIT DUFFY          45.1    4.7 14/12/14/4/11/12   6 M L Yeung     
+  8  10 WINDICATOR FAMILY      44.0    4.1 5/7/12/2/9/4   7 K Teetan      
+  9   9 KOLACHI                43.5    3.8 9/10/11/9/10/4   2 K C Leung     
+ 10   1 SUPER SICARIO          43.2    3.7 10/11/7/1/7/10  12 C Y Ho        
+ 11  12 PERFECT PAIRING        41.2    2.9 13/4/4/2/8/4   9 A Atzeni      
+ 12   5 TO INFINITY            39.7    2.4 9/9/7/12/9/9  10 J Orman       
+
+  Top 3 factor notes:
+  - SOARING BRONCO (conf 25.1%): form=62 CD=40 draw=78 jky=55 trn=55 rtg=62
+  - ORIENTAL SURPRISE (conf 15.4%): form=69 CD=40 draw=85 jky=55 trn=55 rtg=5
+  - RED BRICK WARRIOR (conf 11.4%): form=32 CD=40 draw=95 jky=55 trn=55 rtg=58
+
+Race 2: DEEP WATER BAY HANDICAP
+  Class 4 | 1200m | turf | GOOD
+  Race confidence: 32% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   4 MATZDEN                58.1   25.2 2/4/5/2/4/6    7 A Atzeni      
+  2   7 SILVER SPURS           53.4   14.0 8/12/1/12/2/11   1 E C W Wong    
+  3   9 GOOD LUCK BABE         51.8   11.4 3/4/12/10/12/8   4 Y L Chung     
+  4   2 VIGOR HAPPINESS        50.3    9.6 14/10/14       2 M Chadwick    
+  5   3 LOOKING BRIGHT         47.8    7.0 10/2/5/11/8/5   8 K Teetan      
+  6  12 MAJESTIC DELIGHT       47.4    6.6 12/11/1/4/5/4   3 H Bentley     
+  7   1 FIND MY LOVE           46.7    6.1 8/9/1/6/8/4   12 M L Yeung     
+  8  10 BITS SUPERSTAR         45.1    5.0 11/5/10/5/2/2   5 Z Purton      
+  9   6 GOLDEN ELITE           44.7    4.7 13             6 R Kingscote   
+ 10   8 COUNTRY PRIDE          44.5    4.6 12/3          10 B Avdulla     
+ 11   5 TOURBILLON GOLFER      42.6    3.6 10/4/7/3/6/9  11 M F Poon      
+ 12  11 LEGEND STAR            38.5    2.2 9/10/12/6/7/1   9 L Hewitson    
+
+  Top 3 factor notes:
+  - MATZDEN (conf 25.2%): form=69 CD=40 draw=52 jky=55 trn=55 rtg=67
+  - SILVER SPURS (conf 14.0%): form=40 CD=40 draw=95 jky=48 trn=55 rtg=50
+  - GOOD LUCK BABE (conf 11.4%): form=50 CD=40 draw=78 jky=55 trn=55 rtg=28
+
+Race 3: WONG CHUK HANG HANDICAP
+  Class 4 | 1650m | turf | GOOD
+  Race confidence: 29% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   5 AMAZING GAZE           58.9   22.5 1/6/6/6/8/3    3 J Orman       
+  2   2 SHOOTING TO TOP        54.8   13.4 6/2/4/5/1/6    7 Z Purton      
+  3   3 RAINBOW SEVEN          54.2   12.4 8/-/4/2/1/11   5 C Y Ho        
+  4   7 DECISION LINK          54.1   12.3 5/12/4/1/6/2   4 E C W Wong    
+  5   1 EXCEED THE LIMIT       51.8    9.2 5/2/8/11/8/5  11 L Hewitson    
+  6   9 LUCKY TOGETHER         49.9    7.3 5/12/9/4/11/9   1 K C Leung     
+  7   8 AKERMANIS GOLD         49.8    7.2 5/9/6/9/6/9    2 C L Chau      
+  8   4 MEGA MASTERMIND        47.6    5.4 8/9/8/9/2/1    6 B Avdulla     
+  9   6 CASA ROCHESTER         46.7    4.9 6/4/4/6/6/5   10 L Ferraris    
+ 10  10 FAMILY KNIGHT          41.7    2.6 8/4/12/4/5/8   8 M L Yeung     
+ 11  11 BRIGHT INHERITANCE     36.9    1.4 10/12/8/11/6/2   9 H Bentley     
+ 12  12 SURE JOYFUL            36.6    1.4 10/3/10/3/6/9  12 K Teetan      
+
+  Top 3 factor notes:
+  - AMAZING GAZE (conf 22.5%): form=65 CD=40 draw=85 jky=55 trn=55 rtg=50
+  - SHOOTING TO TOP (conf 13.4%): form=57 CD=40 draw=52 jky=55 trn=55 rtg=67
+  - RAINBOW SEVEN (conf 12.4%): form=49 CD=40 draw=70 jky=55 trn=62 rtg=59
+
+Race 4: DEEP WATER BAY HANDICAP
+  Class 4 | 1200m | turf | GOOD
+  Race confidence: 8% (Low)
+------------------------------------------------------------------------------
+ Rk  No Horse                 Score  Conf% Form          Dr Jockey        
+  1   4 BROWNNEEDSFURTHER      60.4   19.6 1/2/5/2/11/3   7 B Avdulla     
+  2   3 LEADING DRAGON         59.7   18.2 4/4/1/11/3/2   6 H Y Yuen      
+  3   6 CLOUD NINE             58.2   15.0 4/2/12/4/2/4   2 Z Purton      
+  4   8 CHANCHENG SPARKLE      56.7   12.5 4/2/5          5 L Hewitson    
+  5   9 INVICTUS               54.1    9.0 4/4/3/7        4 J Orman       
+  6  11 PODIUM                 51.9    6.8 9/2/4/1/1/7    1 K Teetan      
+  7   5 JOKER ORBIT            51.8    6.7 11/4/7/11/10/10   3 E C W Wong    
+  8   1 FRIENDS OF SHAJING     49.4    5.0 10/5/4/7/4/4   8 C L Chau      
+  9   2 TACTICAL ACE           45.1    2.9 8/12/12/7/11  10 M Chadwick    
+ 10   7 STUNNING BUNDLE        44.1    2.6 12/3          12 A Atzeni      
+ 11  10 LUCKY XANDER           36.0    0.9 12/10/10/14/14/11   9 M F Poon      
+ 12  12 FREE PONY              34.8    0.8 10/8/9/8/3/3  11 M L Yeung     
+
+  Top 3 factor notes:
+  - BROWNNEEDSFURTHER (conf 19.6%): form=80 CD=40 draw=52 jky=55 trn=55 rtg=61
+  - LEADING DRAGON (conf 18.2%): form=63 CD=40 draw=62 jky=55 trn=55 r</pre>
+<div class="disclaimer"><p>免責聲明：僅供研究與娛樂用途，並非投注建議。如在其他途徑博彩，請理性參與。</p><p>DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere.</p></div>
+</main>
+<footer>
+  <p>免責聲明：僅供研究與娛樂用途，並非投注建議。如在其他途徑博彩，請理性參與。</p>
+  <p>DISCLAIMER: For study and entertainment only. This is NOT betting advice. Gamble responsibly if you bet elsewhere.</p>
+</footer>
+
+<script>
+(function () {
+  function setBusy(busy, msg) {
+    document.querySelectorAll("[data-refresh]").forEach(function (btn) {
+      btn.disabled = busy;
+      if (busy) {
+        btn.dataset.label = btn.dataset.label || btn.innerHTML;
+        btn.innerHTML = '<span class="spin"></span>' + (msg || 'Refreshing…');
+      } else if (btn.dataset.label) {
+        btn.innerHTML = btn.dataset.label;
+      }
+    });
+    var st = document.getElementById("refresh-status");
+    if (st) st.textContent = msg || "";
+  }
+  async function doRefresh() {
+    setBusy(true, "Refreshing live…");
+    try {
+      var res = await fetch("/api/refresh", { method: "POST" });
+      var data = await res.json();
+      // Cloudflare Pages Function: deploy hook triggered → wait for rebuild
+      if (data.triggered) {
+        setBusy(true, "Rebuild triggered — new tip sheets deploy shortly. Reloading in ~45s…");
+        setTimeout(function () { location.reload(); }, 45000);
+        return;
+      }
+      if (!data.ok) {
+        setBusy(false, "Error: " + (data.error || "refresh failed"));
+        return;
+      }
+      // FastAPI local: pipeline finished
+      setBusy(true, "Updated " + (data.refreshed_at || "") + " — reloading…");
+      setTimeout(function () { location.reload(); }, 400);
+    } catch (e) {
+      setBusy(false, "Error: " + e);
+    }
+  }
+  document.querySelectorAll("[data-refresh]").forEach(function (btn) {
+    btn.addEventListener("click", function (ev) {
+      ev.preventDefault();
+      if (btn.disabled) return;
+      doRefresh();
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

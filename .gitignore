@@ -3,7 +3,8 @@ __pycache__/
 *$py.class
 *.egg-info/
 .eggs/
-dist/
+# dist/ is committed as Cloudflare Pages fallback; build overwrites on CI
+# dist/
 build/
 .pytest_cache/
 .mypy_cache/

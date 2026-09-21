@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "meeting": "2026-09-23 HV",
+  "races": 9,
+  "refreshed_at": "2026-09-21 13:29:15 HKT",
+  "local_declared": true,
+  "overseas_declared": false,
+  "meetings": [
+    {
+      "kind": "local",
+      "date": "2026-09-23",
+      "venue": "HV",
+      "venue_name": "Happy Valley",
+      "races": 9,
+      "runners": 108,
+      "source": "HKJC GraphQL / 2026-09-23"
+    }
+  ],
+  "messages": [
+    "Live local: 2026-09-23 HV (9 races) source=HKJC GraphQL / 2026-09-23"
+  ],
+  "refreshing": false
+}
