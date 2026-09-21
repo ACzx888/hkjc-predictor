@@ -154,6 +154,15 @@ Cloudflare Pages serves **static** HTML (no long-running FastAPI). Live HKJC dat
 | Setting | Value |
 |---------|--------|
 | **Build command** | `bash scripts/cf_pages_build.sh` |
+
+**If the build fails with a generic “error occurred while running deploy/build command”:**
+
+1. Framework preset = **None** (not Poetry / not auto Python).
+2. Build command exactly: `bash scripts/cf_pages_build.sh`
+3. Output directory: `dist`
+4. Environment variable (optional): `PYTHON_VERSION` = `3.11`
+5. Re-deploy after pulling the latest `main` (build no longer uses `venv`; installs via `pip` + `requirements.txt`).
+
 | **Build output directory** | `dist` |
 | **Root directory** | `/` (repo root) |
 

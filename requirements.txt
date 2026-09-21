@@ -1,0 +1,7 @@
+PyYAML>=6.0
+requests>=2.31
+fastapi>=0.110
+uvicorn[standard]>=0.27
+jinja2>=3.1
+setuptools>=68
+wheel

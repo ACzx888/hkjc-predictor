@@ -1,60 +1,58 @@
 #!/usr/bin/env bash
-# Cloudflare Pages build: live HKJC refresh at build time → static dist/
+# Cloudflare Pages build — avoid venv (often breaks on CF); soft-fail live fetch.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-VENV="${VENV:-$ROOT/.venv}"
-PYTHON="${PYTHON:-python3}"
+export PYTHONUNBUFFERED=1
+export PIP_DISABLE_PIP_VERSION_CHECK=1
 
 echo "==> HKJC Predictor Cloudflare Pages build"
 echo "    root=$ROOT"
+echo "    python=$(command -v python3 || true) $(python3 --version 2>&1 || true)"
 
-if [[ ! -d "$VENV" ]]; then
-  echo "==> Creating venv at $VENV"
-  "$PYTHON" -m venv "$VENV"
+# Prefer plain pip on the build image (no venv).
+python3 -m pip install --upgrade pip setuptools wheel -q
+if [[ -f requirements.txt ]]; then
+  echo "==> pip install -r requirements.txt"
+  python3 -m pip install -r requirements.txt -q
 fi
-# shellcheck disable=SC1091
-source "$VENV/bin/activate"
+echo "==> pip install ."
+python3 -m pip install . -q
 
-echo "==> pip install -e ."
-pip install -e . -q
+export PYTHONPATH="$ROOT/src${PYTHONPATH:+:$PYTHONPATH}"
 
-LIVE_OK=0
-echo "==> python -m hkjc_predictor --live"
+# Always ensure some pages exist (demo) before attempting live.
+echo "==> Ensure demo pages exist (safety net)"
 set +e
-python -m hkjc_predictor --live
-LIVE_RC=$?
+python3 -m hkjc_predictor --demo
+python3 -m hkjc_predictor --demo-overseas
+python3 -m hkjc_predictor pages
 set -e
 
+LIVE_OK=0
+echo "==> Try live GraphQL refresh"
+set +e
+python3 -m hkjc_predictor --live
+LIVE_RC=$?
+set -e
 if [[ "$LIVE_RC" -eq 0 ]]; then
   LIVE_OK=1
   echo "==> Live refresh succeeded"
+  set +e
+  python3 -m hkjc_predictor pages
+  set -e
 else
-  echo "WARN: --live failed (exit $LIVE_RC); soft-failing with last known / demo pages"
-  if [[ ! -f output/pages/index.html ]]; then
-    echo "==> No existing pages; generating demo fallback"
-    set +e
-    python -m hkjc_predictor --demo
-    python -m hkjc_predictor --demo-overseas
-    python -m hkjc_predictor pages
-    set -e
-  else
-    echo "==> Keeping last known output/pages"
-    # Ensure pages exist / refresh chrome via rebuild from existing tips if needed
-    set +e
-    python -m hkjc_predictor pages
-    set -e
-  fi
+  echo "WARN: --live failed (exit $LIVE_RC); continuing with demo / last pages"
 fi
 
 echo "==> Assemble dist/"
-python scripts/prepare_cf_dist.py
+python3 scripts/prepare_cf_dist.py
 
-# Soft-fail: never leave Cloudflare with an empty publish dir
 if [[ ! -f dist/index.html ]]; then
   echo "ERROR: dist/index.html missing after prepare" >&2
+  ls -la output/pages 2>&1 || true
   exit 1
 fi
 
