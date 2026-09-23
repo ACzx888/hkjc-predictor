@@ -10,6 +10,7 @@
 
 from __future__ import annotations
 
+import html as html_lib
 import json
 import re
 import shutil
@@ -38,10 +39,40 @@ def _load_state() -> dict:
         return {"ok": False, "error": f"web_state unreadable: {e}"}
 
 
+
+def _md_to_tip_html(md_text: str, title: str) -> str:
+    """Minimal HTML wrapper so browsers always use UTF-8 (meta charset)."""
+    body = html_lib.escape(md_text)
+    return (
+        "<!DOCTYPE html>\n"
+        '<html lang="zh-Hant">\n'
+        "<head>\n"
+        '<meta charset="utf-8"/>\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1"/>\n'
+        f"<title>{html_lib.escape(title)}</title>\n"
+        "<style>\n"
+        "body{font-family:system-ui,-apple-system,sans-serif;margin:1.5rem;line-height:1.45;"
+        "background:#0f1419;color:#e7ecf3;}\n"
+        "pre{white-space:pre-wrap;word-break:break-word;font-size:0.95rem;}\n"
+        "a{color:#7dd3fc;}\n"
+        "</style>\n"
+        "</head>\n"
+        "<body>\n"
+        '<p><a href="local.html">← Local</a> · <a href="overseas.html">Overseas</a> · '
+        '<a href="index.html">Home</a></p>\n'
+        f"<pre>{body}</pre>\n"
+        "</body>\n"
+        "</html>\n"
+    )
+
+
 def _rewrite_tip_links(html: str) -> str:
-    # ../tips_foo.md -> tips_foo.md (co-located in dist/)
-    html = re.sub(r'href="\.\./(tips_[^"]+)"', r'href="\1"', html)
+    # ../tips_foo.md -> tips_foo.html (UTF-8 HTML view; avoids .md charset mojibake)
+    html = re.sub(r'href="\.\./(tips_[^"]+?)\.md"', r'href="\1.html"', html)
+    html = re.sub(r'href="(tips_[^"]+?)\.md"', r'href="\1.html"', html)
+    html = re.sub(r'>(tips_[^<]+?)\.md<', r'>\1.html<', html)
     return html
+
 
 
 def _status_bar_html(state: dict) -> str:
@@ -114,6 +145,11 @@ def prepare_dist() -> Path:
         dest = DIST / path.name
         shutil.copy2(path, dest)
         print(f"Copied {dest.name}")
+        if path.suffix == ".md":
+            md = path.read_text(encoding="utf-8")
+            html_path = DIST / (path.stem + ".html")
+            html_path.write_text(_md_to_tip_html(md, path.stem), encoding="utf-8")
+            print(f"Wrote {html_path.name}")
 
     # _headers: charset required — Workers serve .md/.txt without charset,
     # and HK browsers often mis-decode UTF-8 Chinese as Big5 (mojibake).
