@@ -127,3 +127,13 @@ class TipSheet:
         "DISCLAIMER: For study and entertainment only. "
         "This is NOT betting advice. Gamble responsibly if you bet elsewhere."
     )
+
+
+def horse_label(runner: Runner) -> str:
+    """Show Chinese name with English, e.g. ``勇進 / Swift Current``."""
+    zh = (getattr(runner, "name_zh", None) or "").strip()
+    en = (runner.name or "").strip()
+    if zh and en and zh != en:
+        return f"{zh} / {en}"
+    return zh or en or "?"
+
