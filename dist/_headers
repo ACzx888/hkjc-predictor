@@ -1,4 +1,9 @@
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+/*.txt
+  Content-Type: text/plain; charset=utf-8
 /status.json
+  Content-Type: application/json; charset=utf-8
   Cache-Control: public, max-age=60
 /*.html
   Cache-Control: public, max-age=120

@@ -115,10 +115,18 @@ def prepare_dist() -> Path:
         shutil.copy2(path, dest)
         print(f"Copied {dest.name}")
 
-    # _headers optional: cache status short
+    # _headers: charset required — Workers serve .md/.txt without charset,
+    # and HK browsers often mis-decode UTF-8 Chinese as Big5 (mojibake).
     (DIST / "_headers").write_text(
-        "/status.json\n  Cache-Control: public, max-age=60\n"
-        "/*.html\n  Cache-Control: public, max-age=120\n",
+        "/*.md\n"
+        "  Content-Type: text/markdown; charset=utf-8\n"
+        "/*.txt\n"
+        "  Content-Type: text/plain; charset=utf-8\n"
+        "/status.json\n"
+        "  Content-Type: application/json; charset=utf-8\n"
+        "  Cache-Control: public, max-age=60\n"
+        "/*.html\n"
+        "  Cache-Control: public, max-age=120\n",
         encoding="utf-8",
     )
     print(f"Dist ready: {DIST}")
