@@ -1,9 +1,8 @@
 # Cloudflare Workers (static assets) — matches dashboard with Build / Deploy / Version commands.
 # Build produces ./dist; wrangler uploads that folder as assets.
+# Tip sheets: UTF-8 via dist/_headers charset + tips_*.html (meta charset).
 name = "hkjc-predictor"
-main = "worker.js"
 compatibility_date = "2024-09-01"
 
 [assets]
 directory = "./dist"
-binding = "ASSETS"
